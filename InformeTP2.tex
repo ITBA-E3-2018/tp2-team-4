@@ -1,0 +1,40 @@
+\input{preamble.tex}
+
+\title{
+	%\vspace{-1in} 	
+	\usefont{OT1}{bch}{b}{n}
+	\normalfont \normalsize \textsc{Instituto Tecnológico de Buenos Aires} \\ [25pt]
+	\horrule{2pt} \\[0.4cm]
+	\huge Trabajo Práctico de Laboratorio Nr. 2 \\
+	\horrule{2pt} \\[0cm]
+}
+\date{\today}
+
+\begin{document}
+
+
+\maketitle
+\input{intro.tex}
+
+\newpage
+\tableofcontents
+
+\newif\ifunoporpagina
+
+\unoporpaginatrue % or
+% \unoporpaginafalse
+
+
+% The \input command appends the content of the file directly into the document.
+\input{ejercicio1/ejercicio1.tex}
+\input{ejercicio2/ejercicio2.tex}
+\input{ejercicio3/ejercicio3.tex}
+\input{ejercicio4/ejercicio4.tex}
+\input{ejercicio5/ejercicio5.tex}
+\input{ejercicio6/ejercicio6.tex}
+\input{ejercicio7/ejercicio7.tex}
+\input{ejercicio8/ejercicio8.tex}
+
+
+%%% End document
+\end{document}

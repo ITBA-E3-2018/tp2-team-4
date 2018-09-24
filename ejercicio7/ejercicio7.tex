@@ -1,0 +1,82 @@
+\ifunoporpagina
+\newpage
+\fi
+\section*{Ejercicio numero}
+%aca va el ejercicio
+
+\iffalse
+Seccion de cosas utiles para agregar
+
+texto----------------------------
+\textit[texto en negrita]
+
+
+
+
+listas --------------------------------------------------
+\begin{list_type}  
+\item The first item 
+\item The second item 
+\item The third etc \ldots 
+\end{list_type}
+
+list_type es:
+itemize for a bullet list
+enumerate for an enumerated list and
+description for a descriptive list.
+
+ejemplo listas anidadas-----------------------------------------------
+
+\begin{enumerate}
+\item The first item
+\begin{enumerate}
+\item Nested item 1
+\item Nested item 2
+\end{enumerate}
+\item The second item
+\item The third etc \ldots
+\end{enumerate}
+
+tildes-------------------------------
+babel ya esta incluido, si hay que poner tildes se ponen \acute{i}
+ejemplo: l\acute{i}mite
+
+tip: escriban normal y despues hagan replace
+
+subsecciones-------------------------------
+
+si necesitan subsecciones le clavan un buen \subsection*{nombre}
+
+y si estan en piolas y necesitan sub sub secciones le clavan un \subsubsection*{nombre}
+
+quien hubiera dicho
+
+figuras----------------------------------------
+
+\begin{figure}% este es para caption arriba o abajo
+  \caption{A picture of a gull.} %caption arriba
+  \centering
+    \includegraphics[width=0.5\textwidth]{gull}
+    \caption{A picture of a gull.} %caption abajo
+\end{figure}
+
+\begin{SCfigure} %este es para caption al costado
+  \centering
+  \caption{ ... caption text ... } 
+  \includegraphics[width=0.3\textwidth]%
+    {Giraffe_picture}% picture filename
+\end{SCfigure}
+
+para hacer que la figure se quede quietecita:
+
+\begin{figure}[letrita_placement]
+
+donde letrita_placement es:
+h	Place the float here, i.e., approximately at the same point it occurs in the source text (however, not exactly at the spot)
+t	Position at the top of the page.
+b	Position at the bottom of the page.
+p	Put on a special page for floats only.
+!	Override internal parameters LaTeX uses for determining "good" float positions.
+H	Places the float at precisely the location in the LaTeX code. Requires the float package,[1] i.e., \usepackage{float}. This is somewhat equivalent to !ht.
+
+\fi
