@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1537821003 "InformeTP2.tex" "InformeTP2.pdf" "InformeTP2" 1537821003
+["pdflatex"] 1537881612 "InformeTP2.tex" "InformeTP2.pdf" "InformeTP2" 1537881612
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/bitstrea/charter/bchb7t.tfm" 1480098691 2732 006d846b4d54f9b40899c7c3eecd771a ""
@@ -10,7 +10,9 @@
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm" 1480098696 3584 9bd2baa3a21be3460ad52867ca0084f1 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/jknappen/ec/ecsx2074.tfm" 1480098696 3584 5ba4d7d245f2ced66081d269e8c9a284 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1480098698 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1480098698 928 2dc8d444221b7a635bb58038579b861a ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1480098698 908 2921f8a10601f252058503cc6570e581 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1480098698 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/fourier/fourier-alt-ita.tfm" 1480098707 216 e27f2b163ac276d8da5e6537416cdf40 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm" 1480098707 220 26d85b63a783b1f1fab5622acbd07990 ""
@@ -110,11 +112,11 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1524514539 4129592 4ce90baa70feead1fbcb62ee318f01b2 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "InformeTP2.aux" 1537820950 284 6cff8ad9e87b52b79e40267c5a93d446 ""
+  "InformeTP2.aux" 1537881439 284 6cff8ad9e87b52b79e40267c5a93d446 ""
   "InformeTP2.tex" 1537820998 801 9b6b181d9eb24de9ab3cc1d1fd8056a6 ""
-  "InformeTP2.toc" 1537820950 27 8fc6532de17bee44fba1eb8e5cba892f ""
+  "InformeTP2.toc" 1537881439 27 8fc6532de17bee44fba1eb8e5cba892f ""
   "ejercicio1/ejercicio1.tex" 1537807250 2184 1678a0a6e7eba460cc12a076ed8ce1fc ""
-  "ejercicio2/ejercicio2.tex" 1537807250 2184 1678a0a6e7eba460cc12a076ed8ce1fc ""
+  "ejercicio2/ejercicio2.tex" 1537881571 3889 9645e529c72f6227ff60266a8ab23126 ""
   "ejercicio3/ejercicio3.tex" 1537807250 2184 1678a0a6e7eba460cc12a076ed8ce1fc ""
   "ejercicio4/ejercicio4.tex" 1537807250 2184 1678a0a6e7eba460cc12a076ed8ce1fc ""
   "ejercicio5/ejercicio5.tex" 1537807250 2184 1678a0a6e7eba460cc12a076ed8ce1fc ""
@@ -124,7 +126,7 @@
   "intro.tex" 1537819936 360 f6948c1fab7ccd2f43bfc76788d41aaf ""
   "preamble.tex" 1537820884 1292 5e3ce824b143c30754018d50fc06c9be ""
   (generated)
+  "InformeTP2.aux"
   "InformeTP2.toc"
   "InformeTP2.log"
-  "InformeTP2.aux"
   "InformeTP2.pdf"

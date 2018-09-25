@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.23)  24 SEP 2018 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.23)  25 SEP 2018 10:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1261,6 +1261,22 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 4.
 
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 7.
+
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 8.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 8.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 8.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 8.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 8.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 8.
 ) (./ejercicio3/ejercicio3.tex [4]
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -1320,20 +1336,20 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 9204 strings out of 492995
- 145181 string characters out of 6132704
- 325100 words of memory out of 5000000
- 12469 multiletter control sequences out of 15000+600000
- 62614 words of font info for 85 fonts, out of 8000000 for 9000
+ 9252 strings out of 492995
+ 146096 string characters out of 6132704
+ 328100 words of memory out of 5000000
+ 12515 multiletter control sequences out of 15000+600000
+ 81218 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,10n,51p,8866b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,13n,51p,8866b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/
 texlive/2017/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on InformeTP2.pdf (10 pages, 30343 bytes).
+Output written on InformeTP2.pdf (10 pages, 32302 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 27137 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 28161 words of extra memory for PDF output out of 29859 (max. 10000000)
 
