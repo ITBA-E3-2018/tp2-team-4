@@ -4,14 +4,22 @@
 \usepackage{fourier}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}					% English language/hyphenation
-\usepackage{wrapfig}
+%\usepackage{wrapfig}
 \usepackage{float}
-\usepackage{sidecap}
+%\usepackage{sidecap}
 \usepackage[protrusion=true,expansion=true]{microtype}	
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
 \usepackage[pdftex]{graphicx}	
 \usepackage{url}
 \usepackage{import}
+\usepackage{tocloft}
+\renewcommand\cftchapafterpnum{\vskip6pt}
+\renewcommand\cftsecafterpnum{\vskip6pt}
+\renewcommand\cftsubsecafterpnum{\vskip6pt}
+\renewcommand{\cftchapfont}{\sffamily}
+\renewcommand{\cftsecfont}{\sffamily}
+\renewcommand{\cftsubsecfont}{\sffamily}
+
 
 \usepackage[margin=2cm]{geometry}
 
@@ -40,3 +48,8 @@
 
 %%% Maketitle metadata
 \newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\newif\ifunoporpagina
+
+%\unoporpaginatrue % or
+\unoporpaginafalse
