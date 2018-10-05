@@ -6,7 +6,7 @@ Se tomaron los datos de m\'aximos y m\'inimos de las entradas y salidas para los
 \begin{tabular}{|l|l|l|l|l|l|l|}
 \hline
                                                                             & Vcc                                                        & Voltage (25 C)                                              & Vcc         & Voltage (25 C) & Vcc      & Voltage (25 C)   \\ \hline
-74HC02                                                                      & \multicolumn{2}{l|}{74HC02}                                                                                              & \multicolumn{2}{l|}{74HCT02} & \multicolumn{2}{l|}{74LS02} \\ \hline
+                                                                      & \multicolumn{2}{l|}{74HC02}                                                                                              & \multicolumn{2}{l|}{74HCT02} & \multicolumn{2}{l|}{74LS02} \\ \hline
 \begin{tabular}[c]{@{}l@{}}Minimum HIGH Level\\ Input Voltage\end{tabular}  & \begin{tabular}[c]{@{}l@{}}2.0V\\ 4.5V\\ 6.0V\end{tabular} & \begin{tabular}[c]{@{}l@{}}1.5V\\ 3.15V\\ 4.2V\end{tabular} & 4.5V a 5.5V & 2V             & 4.75V    & 2V               \\ \hline
 \begin{tabular}[c]{@{}l@{}}Maximum LOW Level\\ Input Voltage\end{tabular}   & \begin{tabular}[c]{@{}l@{}}2.0V\\ 4.5V\\ 6.0V\end{tabular} & \begin{tabular}[c]{@{}l@{}}0.5V\\ 1.35V\\ 1.8V\end{tabular} & 4.5V a 5.5V & 0.8V           & 4.75V    & 0.8V             \\ \hline
 \begin{tabular}[c]{@{}l@{}}Minimum HIGH Level\\ Output Voltage\end{tabular} & \begin{tabular}[c]{@{}l@{}}2.0V\\ 4.5V\\ 6.0V\end{tabular} & \begin{tabular}[c]{@{}l@{}}1.9V\\ 4.4V\\ 5.9V\end{tabular}  & 4.5V a 5.5V & 4.4V           & 4.75V    & 2.7V             \\ \hline
@@ -16,8 +16,34 @@ Se tomaron los datos de m\'aximos y m\'inimos de las entradas y salidas para los
 \label{tab:datos74}
 \end{table}
 
-Si se quisiera cargar una compuerta LS con una HC no habr\'ia problema, pues el m\'aximo voltaje de output para nivel bajo de una LS es menor que el m\'aximo que una HC interpreta como bajo y el m\'inimo de salida para nivel alto de una LS es mayor que el m\'inimo para que HC lo considere alto. 
+Como se ilustra en las figuras para los cuatro casos planteados, s\'olo habr\'ia problemas si se intenta conectar un transistor HC a la salida de un LS: la salida alta del LS puede caer en la regi\'on indeterminada de la entrada del HC, y sin que falle ning\'un componente fallar\'ia el circuito.
 
+En todos los dem\'as casos se genera un margen de error para las entradas de los transistores.
+
+
+\begin{figure}[h]% este es para caption arriba o abajo
+  \centering
+    \includegraphics[width=0.5\textwidth]{HC->LS}
+    \caption{Niveles de tensi\'on para caso HC->LS.} %caption abajo
+\end{figure}
+
+\begin{figure}[h]% este es para caption arriba o abajo
+  \centering
+    \includegraphics[width=0.5\textwidth]{LS->HC}
+    \caption{Niveles de tensi\'on para caso LS->HC.} %caption abajo
+\end{figure}
+
+\begin{figure}[h]% este es para caption arriba o abajo
+   \centering
+    \includegraphics[width=0.5\textwidth]{HCT->LS}
+    \caption{Niveles de tensi\'on para caso HCT->LS.} %caption abajo
+\end{figure}
+
+\begin{figure}[h]% este es para caption arriba o abajo
+   \centering
+    \includegraphics[width=0.5\textwidth]{LS->HCT}
+    \caption{Niveles de tensi\'on para caso LS->HCT.} %caption abajo
+\end{figure}
 
 
 \iffalse

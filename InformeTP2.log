@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.23)  5 OCT 2018 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.23)  5 OCT 2018 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1207,20 +1207,56 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 \tf@toc=\write3
 \openout3 = `InformeTP2.toc'.
 
- (./ejercicio1/ejercicio1.tex)
-(./ejercicio2/ejercicio2.tex) (./ejercicio3/ejercicio3.tex)
-(./ejercicio4/ejercicio4.tex) (./ejercicio5/ejercicio5.tex)
-(./ejercicio6/ejercicio6.tex) (./ejercicio7/ejercicio7.tex)
-(./ejercicio8/ejercicio8.tex) [2] [3] (./InformeTP2.aux
+ [2] (./ejercicio1/ejercicio1.tex) [3]
+(./ejercicio2/ejercicio2.tex
+<ejercicio2/HC->LS.png, id=17, 745.78625pt x 379.4175pt>
+File: ejercicio2/HC->LS.png Graphic file (type png)
+
+<use ejercicio2/HC->LS.png>
+Package pdftex.def Info: ejercicio2/HC->LS.png used on input line 26.
+(pdftex.def)             Requested size: 241.84846pt x 123.03711pt.
+
+<ejercicio2/LS->HC.png, id=19, 747.79375pt x 374.39874pt>
+File: ejercicio2/LS->HC.png Graphic file (type png)
+
+<use ejercicio2/LS->HC.png>
+Package pdftex.def Info: ejercicio2/LS->HC.png used on input line 32.
+(pdftex.def)             Requested size: 241.84846pt x 121.084pt.
+
+<ejercicio2/HCT->LS.png, id=20, 746.79pt x 372.39125pt>
+File: ejercicio2/HCT->LS.png Graphic file (type png)
+
+<use ejercicio2/HCT->LS.png>
+Package pdftex.def Info: ejercicio2/HCT->LS.png used on input line 38.
+(pdftex.def)             Requested size: 241.84846pt x 120.59955pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<ejercicio2/LS->HCT.png, id=21, 763.85374pt x 371.3875pt>
+File: ejercicio2/LS->HCT.png Graphic file (type png)
+
+<use ejercicio2/LS->HCT.png>
+Package pdftex.def Info: ejercicio2/LS->HCT.png used on input line 44.
+(pdftex.def)             Requested size: 241.84846pt x 117.58836pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [4 <./ejercicio2/HC->LS.png> <./ejercicio2/LS->HC.png>]
+(./ejercicio3/ejercicio3.tex) [5 <./ejercicio2/HCT->LS.png> <./ejercicio2/LS->H
+CT.png>] (./ejercicio4/ejercicio4.tex) [6] (./ejercicio5/ejercicio5.tex)
+[7] (./ejercicio6/ejercicio6.tex) [8] (./ejercicio7/ejercicio7.tex) [9]
+(./ejercicio8/ejercicio8.tex) [10] (./InformeTP2.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 9224 strings out of 492995
- 145289 string characters out of 6132704
- 332420 words of memory out of 5000000
- 12488 multiletter control sequences out of 15000+600000
- 86394 words of font info for 119 fonts, out of 8000000 for 9000
+ 9244 strings out of 492995
+ 145782 string characters out of 6132704
+ 331420 words of memory out of 5000000
+ 12511 multiletter control sequences out of 15000+600000
+ 85854 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,14n,51p,8866b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/
@@ -1230,10 +1266,10 @@ xlive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2
 mf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on InformeTP2.pdf (3 pages, 55266 bytes).
+Output written on InformeTP2.pdf (10 pages, 246277 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28673 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 28693 words of extra memory for PDF output out of 29859 (max. 10000000)
 

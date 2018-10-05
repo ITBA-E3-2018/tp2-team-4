@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1538766789 "InformeTP2.tex" "InformeTP2.pdf" "InformeTP2" 1538766789
+["pdflatex"] 1538772683 "InformeTP2.tex" "InformeTP2.pdf" "InformeTP2" 1538772683
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1480098666 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -116,11 +116,15 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1524514539 4129592 4ce90baa70feead1fbcb62ee318f01b2 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "InformeTP2.aux" 1538766632 1024 fc3105503821fa936e5f2f7963545287 ""
+  "InformeTP2.aux" 1538772681 1495 4730e2d4b5d566ed207e824b5107ae2a ""
   "InformeTP2.tex" 1538766727 1231 244ee82b57bf3660559433e3a93a0bca ""
-  "InformeTP2.toc" 1538766632 459 32d8a9d091ee18ce446dd5be9d7b5aa6 ""
+  "InformeTP2.toc" 1538772681 460 0fe2874d17ee9272262dec47553d17fa ""
   "ejercicio1/ejercicio1.tex" 1537906781 2129 c4d2412492eb81a62732d2ea1d8cf28d ""
-  "ejercicio2/ejercicio2.tex" 1538766625 4417 d7611e4c7418782f248dbabc25e6c422 ""
+  "ejercicio2/HC->LS.png" 1538768359 94767 45aa40d2cbc55bfd41b02bcbb1d9dd99 ""
+  "ejercicio2/HCT->LS.png" 1538768833 95536 90729fb44c6caf760605e3e6fd2fa560 ""
+  "ejercicio2/LS->HC.png" 1538767901 99632 4276c85983700dce1a866a114be1c602 ""
+  "ejercicio2/LS->HCT.png" 1538768979 96835 a1e63c366794669f67eed0b58174ef9c ""
+  "ejercicio2/ejercicio2.tex" 1538772427 5313 ae0a9ddb2245044fec09951ceaf7a922 ""
   "ejercicio3/ejercicio3.tex" 1537907403 2129 c4d2412492eb81a62732d2ea1d8cf28d ""
   "ejercicio4/ejercicio4.tex" 1537907411 2128 0ed31da2b64d2d9574221f3fc4c05d26 ""
   "ejercicio5/ejercicio5.tex" 1537907420 2129 c4d2412492eb81a62732d2ea1d8cf28d ""
@@ -128,9 +132,9 @@
   "ejercicio7/ejercicio7.tex" 1537907447 2128 0ed31da2b64d2d9574221f3fc4c05d26 ""
   "ejercicio8/ejercicio8.tex" 1537907453 2128 0ed31da2b64d2d9574221f3fc4c05d26 ""
   "intro.tex" 1538766776 358 ef6d065733d00d44edd35650892e317e ""
-  "preamble.tex" 1537910017 1628 48108d849eab7b2ebb2e22a923b71a84 ""
+  "preamble.tex" 1538772676 1628 070b1bf3e4bfea845bf74c0893e57378 ""
   (generated)
-  "InformeTP2.toc"
   "InformeTP2.pdf"
   "InformeTP2.log"
   "InformeTP2.aux"
+  "InformeTP2.toc"
