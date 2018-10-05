@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.23)  25 SEP 2018 18:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.23)  5 OCT 2018 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1145,36 +1145,9 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 
 )
-
-./InformeTP2.tex:17: Package inputenc Error: Unicode char ógic (U+136)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \import
-            {}{intro.tex}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./InformeTP2.tex:17: Package inputenc Error: Unicode char áct (U+D8)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \import
-            {}{intro.tex}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 17
 .
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
@@ -1209,39 +1182,11 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 LaTeX Warning: No \author given.
 
-(./intro.tex
-
-./intro.tex:7: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \item Lisandro Á
-                    lvarez, legajo \textit{57771}
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
+(./intro.tex) [1
 
 
-./intro.tex:8: Package inputenc Error: Unicode char ías (U+E1)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \item Matías
-                 Fogg, legajo \textit{56252}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) [1
-
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./InformeTP2.toc
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Info
+rmeTP2.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
@@ -1262,96 +1207,20 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 \tf@toc=\write3
 \openout3 = `InformeTP2.toc'.
 
- (./ejercicio1/ejercicio1.tex) (./ejercicio2/ejercicio2.tex
-
-./ejercicio2/ejercicio2.tex:4: Package inputenc Error: Unicode char áxi (U+E2)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 Se tomaron los datos de máxi
-                                mos y mínimos de las entradas y salidas para...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./ejercicio2/ejercicio2.tex:4: Package inputenc Error: Unicode char íni (U+E4)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 Se tomaron los datos de máximos y míni
-                                          mos de las entradas y salidas para...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./ejercicio2/ejercicio2.tex:4: Package inputenc Error: Unicode char ón,y (U+116
-)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...as de datos de los circuitos en cuestión, y
-                                                   se exhiben en \ref{tab:da...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./ejercicio2/ejercicio2.tex:15: Package inputenc Error: Unicode char ónob (U+14
-2)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 ...nformación obtenida de las hojas de datos}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./ejercicio2/ejercicio2.tex:15: Package inputenc Error: Unicode char ónob (U+14
-2)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 ...nformación obtenida de las hojas de datos}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (./ejercicio3/ejercicio3.tex) (./ejercicio4/ejercicio4.tex)
-(./ejercicio5/ejercicio5.tex) (./ejercicio6/ejercicio6.tex)
-(./ejercicio7/ejercicio7.tex) (./ejercicio8/ejercicio8.tex) [2]
-(./InformeTP2.aux
+ (./ejercicio1/ejercicio1.tex)
+(./ejercicio2/ejercicio2.tex) (./ejercicio3/ejercicio3.tex)
+(./ejercicio4/ejercicio4.tex) (./ejercicio5/ejercicio5.tex)
+(./ejercicio6/ejercicio6.tex) (./ejercicio7/ejercicio7.tex)
+(./ejercicio8/ejercicio8.tex) [2] [3] (./InformeTP2.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 9221 strings out of 492995
- 145233 string characters out of 6132704
- 331418 words of memory out of 5000000
- 12495 multiletter control sequences out of 15000+600000
- 85748 words of font info for 111 fonts, out of 8000000 for 9000
+ 9224 strings out of 492995
+ 145289 string characters out of 6132704
+ 332420 words of memory out of 5000000
+ 12488 multiletter control sequences out of 15000+600000
+ 86394 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,14n,51p,8866b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/
@@ -1361,10 +1230,10 @@ xlive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2
 mf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on InformeTP2.pdf (2 pages, 53340 bytes).
+Output written on InformeTP2.pdf (3 pages, 55266 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  28673 words of extra memory for PDF output out of 29859 (max. 10000000)
 

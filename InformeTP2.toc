@@ -1,9 +1,9 @@
 \select@language {spanish}
 \contentsline {section}{\nonumberline Ejercicio 1}{2}
 \contentsline {section}{\nonumberline Ejercicio 2}{2}
-\contentsline {section}{\nonumberline Ejercicio 3}{2}
-\contentsline {section}{\nonumberline Ejercicio 4}{2}
-\contentsline {section}{\nonumberline Ejercicio 5}{2}
-\contentsline {section}{\nonumberline Ejercicio 6}{2}
-\contentsline {section}{\nonumberline Ejercicio 7}{2}
-\contentsline {section}{\nonumberline Ejercicio 8}{2}
+\contentsline {section}{\nonumberline Ejercicio 3}{3}
+\contentsline {section}{\nonumberline Ejercicio 4}{3}
+\contentsline {section}{\nonumberline Ejercicio 5}{3}
+\contentsline {section}{\nonumberline Ejercicio 6}{3}
+\contentsline {section}{\nonumberline Ejercicio 7}{3}
+\contentsline {section}{\nonumberline Ejercicio 8}{3}
