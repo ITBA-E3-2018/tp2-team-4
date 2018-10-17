@@ -1,0 +1,37 @@
+\begin{circuitikz}[scale=1]
+\draw(-1.5,-2) rectangle (1.5,2); %IC rectangle
+\draw (0,0.5) node [align=center]{\large xx-555\\TIMER}; % IC LABEL
+% Draw the pins
+
+\draw (0.9,-2) node [above]{GND} -- +(0,-0.5) node [anchor=-45]{1} coordinate (GND); % Pin 1 GND
+\draw (-1.5,-1.5) node [right]{TRG} -- +(-0.5,0) node [anchor=-135]{2} coordinate (TRG); % Pin 2 TRG
+\draw (1.5,0) node [left]{OUT} -- +(0.5,0) node [anchor=-45]{3} coordinate (OUT); % Pin 3 OUT  
+\draw (0.9,2) node [below]{RESET} -- +(0,0.5) node [anchor=45]{4} coordinate (RESET); % Pin 4 RESET
+\draw (0,-2) node [above]{CTRL} -- +(0,-0.5) node [anchor=-45]{5} coordinate (CTRL); % Pin 5 CTRL
+\draw (-1.5,-.5) node [right]{THR} -- +(-0.5,0) node [anchor=-135]{6} coordinate (THR); % Pin 6 THR
+\draw (-1.5,1.5) node [right]{DIS} -- +(-0.5,0) node [anchor=-135]{7} coordinate (DIS); % Pin 7 DIS
+\draw (0,2) node [below]{$\mathsf{V_{CC}}$} -- +(0,0.5) node [anchor=45]{8} coordinate (VCC); % Pin 8 VCC
+
+% Start conecting 
+\draw(-4,3.5) % Start point
+    node [anchor=east]{$V_{CC}$}
+    to [short, o-] ++(1,0) coordinate (NOD1) % Use auxiliar coordinate (NOD1)
+    to [R=$R_1$,*-*] (DIS -| NOD1) node(NOD3){}% to the point in the intersection between NOD1 and 1 DIS
+    to [R=$R_2$,*-*] (THR -| NOD1) node(NOD2){}% idem
+    to [short, *-*] (TRG -| NOD1)
+    to [C=C,*-*] (-3,-5)
+    to [short,*-o] ++(-1,0) coordinate (GND2)
+    node [anchor=east]{GND};
+    
+    %Conect U-1
+\draw (VCC) to [short, -*] (VCC |- NOD1);
+\draw (RESET) to [short, -*] (RESET |- NOD1);
+\draw (TRG) to [short, -*] (TRG -| NOD1);
+\draw (CTRL) to [C,l_=0.01nF, -*] (CTRL |- GND2);
+\draw (GND) to [short, -*] (GND |- GND2);
+\draw (GND2) to [short] (GND2-|GND);
+\draw (NOD2) to [short] (THR);
+\draw (NOD3) to[short] (DIS);
+\draw (NOD1) to[short] (NOD1-|RESET);
+\draw (OUT) to[short,-o] ++(right:1) node[right]{Clk \texttiming{LHLHL}};
+\end{circuitikz}

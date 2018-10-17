@@ -1,0 +1,13 @@
+\begin{circuitikz}
+\draw
+(0,0) node[and port](myand){}
+(myand.in 1)++(left:1.5) node(Clk){}
+(myand.in 2)++(left:1.5) node(ECHO){}
+(Clk) node[left](){Clk}
+(ECHO) node[left](){ECHO}
+(Clk) to[short,o-] (myand.in 1)
+(ECHO) to[short,o-] (myand.in 2)
+(myand.out) to[short,-o] ++(right:1)
+node[right](){To CP}
+;
+\end{circuitikz}

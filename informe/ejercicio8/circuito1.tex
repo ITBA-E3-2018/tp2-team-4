@@ -1,0 +1,14 @@
+\begin{circuitikz}[scale=1] \draw
+(0,0) node[ground] {}
+	to[push button = Push Button] (0,2.5)
+	to[R = 10k, *-*] (0,5)
+	to (0,5.5) node[vcc]{Vcc}
+	(0,5) -- (2,5)
+	to[R=3k3, -*] (2,2.5)
+	to[C=0.01$\mu$F](0,2.5)
+	(2,2.5) -- (3,2.5)
+	(3.5,2.5) node[invschmitt]{}
+	(4,2.5) to[short,-o] (4.5,2.5)
+	node[right]{$V_{out}$}
+;
+\end{circuitikz}
