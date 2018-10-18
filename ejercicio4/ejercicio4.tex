@@ -1,79 +1,92 @@
+\part*{Ejercicio 4}
+Se nos solicitó medir los tiempos de propagación, rise time y fall time de una compuerta 74HC02 en vacío, y luego repetir el experimento implementando el circuito mostrado en la Figura \ref{4_fig3}. La compuerta NOR es una 74HC02 y las NAND son 74HC00.
+%\begin{figure}[H]
+%\centering
+%\input{ejercicio4/circuito1}
+%\caption{Circuito a implementar}
+%\label{4_fig3} 
+%\end{figure}
 
-%aca va el ejercicio
+\begin{wrapfigure}{l}{6.5cm}
+\begin{center}
+\resizebox{.5\linewidth}{!}{\parbox{\linewidth}{\input{ejercicio4/circuito1}}}
+\caption{Circuito a implementar}
+\label{4_fig3}
+\end{center}
+\end{wrapfigure}
 
-\iffalse
-Seccion de cosas utiles para agregar
+A continuación se nos solicitó aumentar la frecuencia del generador de señales a 100kHz y medir la tensión de alimentación, y repetir la experiencia conectando capacitores de desacople en los terminales de alimentación de los integrados.
+Los resultados obtenidos para los tiempos de propagación, rise time y fall time de la compuerta 74HC02 en vacío fueron:
 
-texto----------------------------
-\textit[texto en negrita]
-
-
-
-
-listas --------------------------------------------------
-\begin{list_type}  
-\item The first item 
-\item The second item 
-\item The third etc \ldots 
-\end{list_type}
-
-list_type es:
-itemize for a bullet list
-enumerate for an enumerated list and
-description for a descriptive list.
-
-ejemplo listas anidadas-----------------------------------------------
-
-\begin{enumerate}
-\item The first item
-\begin{enumerate}
-\item Nested item 1
-\item Nested item 2
-\end{enumerate}
-\item The second item
-\item The third etc \ldots
-\end{enumerate}
-
-tildes-------------------------------
-babel ya esta incluido, si hay que poner tildes se ponen \acute{i}
-ejemplo: l\acute{i}mite
-
-tip: escriban normal y despues hagan replace
-
-subsecciones-------------------------------
-
-si necesitan subsecciones le clavan un buen \subsection*{nombre}
-
-y si estan en piolas y necesitan sub sub secciones le clavan un \subsubsection*{nombre}
-
-quien hubiera dicho
-
-figuras----------------------------------------
-
-\begin{figure}% este es para caption arriba o abajo
-  \caption{A picture of a gull.} %caption arriba
-  \centering
-    \includegraphics[width=0.5\textwidth]{gull}
-    \caption{A picture of a gull.} %caption abajo
+\begin{figure}[H]
+\begin{flushright}
+\begin{tabular}{|c|c|}
+\hline 
+Tiempo de propagación & 9.39 nseg \\ 
+\hline 
+Rise time & 9.93 nseg \\ 
+\hline 
+Fall time & 35.5 nseg \\ 
+\hline 
+\end{tabular}
+\end{flushright}
 \end{figure}
 
-\begin{SCfigure} %este es para caption al costado
-  \centering
-  \caption{ ... caption text ... } 
-  \includegraphics[width=0.3\textwidth]%
-    {Giraffe_picture}% picture filename
-\end{SCfigure}
+Cuando se implementó el circuito mostrado en la Figura \ref{4_fig3}, los valores obtenidos fueron:
 
-para hacer que la figure se quede quietecita:
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline 
+Tiempo de propagación & 12.7 nseg \\ 
+\hline 
+Rise time & 38.8 nseg \\ 
+\hline 
+Fall time & 32.9 nseg \\ 
+\hline 
+\end{tabular}
+\end{center}
 
-\begin{figure}[letrita_placement]
+Se observa que el tiempo de propagación y el fall time se ven ligeramente afectados. No así el rise time, el cuál es aproximadamente 4 veces mayor cuando se carga la salida de la compuerta NOR con el circuito mostrado.
 
-donde letrita_placement es:
-h	Place the float here, i.e., approximately at the same point it occurs in the source text (however, not exactly at the spot)
-t	Position at the top of the page.
-b	Position at the bottom of the page.
-p	Put on a special page for floats only.
-!	Override internal parameters LaTeX uses for determining "good" float positions.
-H	Places the float at precisely the location in the LaTeX code. Requires the float package,[1] i.e., \usepackage{float}. This is somewhat equivalent to !ht.
+\bigskip
+Seguidamente se aumentó la frecuencia del generador de señales a 100kHz y se midió la señal de alimentación. La Figura \ref{4_fig1} muestra unos pequeños sobrepicos que coinciden con los flancos de la señal de entrada. Estos sobrepicos se poducen porque cuando las compuertas conmutan producen una demanda de corriente significativa, la cual es provista por la fuente de alimentación. La linea de alimentación de los integrados posee una impedancia despreciable cuando no hay variaciones de corriente en el circuito, sin embargo cuando conmutan las compuertas y las fluctuaciones en la corriente son repentinas, los efectos de la impedancia se manifiestan, y aparecen sobrepicos de tension en la linea.
+%\begin{figure}[H]
+%\centering
+%\includegraphics[scale=0.2]{imagenes/sin_capacitor.png}
+%\caption{Tensión en el terminal de alimentacion del 74HC02 sin capacitor}
+%\label{4_fig1} 
+%\end{figure}
 
-\fi
+Para suavizar este efecto, se colocaron, como indica la consigna, capacitores de desacople en los terminales de alimentación de los circuitos integrados. Como muestra la Figura \ref{4_fig2}, el efecto es contrarrestado de forma significativa. De esta forma, cuando el circuito demanda un flujo de corriente repentinamente, el capacitor provee la corriente al integrado y no se producen cambios repentinos de corriente en la linea de alimentación.
+
+%\begin{figure}[H]
+%\centering
+%\includegraphics[scale=0.2]{imagenes/con_capacitor.png}
+%\caption{Tensión en el terminal de alimentacion del 74HC02 con capacitor}
+%\label{4_fig2} 
+%\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+  \begin{minipage}[b]{0.4\textwidth}
+  	\begin{center}
+  		\includegraphics[scale=0.18]{imagenes/sin_capacitor.png}
+  	\end{center}
+  \caption{Tensión en el terminal de alimentacion del 74HC02 sin capacitor}
+  \label{4_fig1} 
+  \end{minipage}
+  \begin{minipage}[b]{0.4\textwidth}
+    \begin{center}
+  		\includegraphics[scale=0.18]{imagenes/con_capacitor.png}
+	\end{center}
+  \caption{Tensión en el terminal de alimentacion del 74HC02 con capacitor}
+  \label{4_fig2}
+ \end{minipage}
+\end{center}
+\end{figure}
+
+
+
+
+
+
