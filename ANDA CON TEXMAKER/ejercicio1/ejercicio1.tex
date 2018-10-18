@@ -14,23 +14,28 @@ Se implementaron dos compuertas NOT con tecnología BJT: una variante con un tra
 Midiendo con un osciloscopio la entrada y la salida del circuito y haciendo uso del modo XY, se obtuvo la curva caracter\'istica de tensi\'on de cada compuerta.
 
 A partir de estas curvas, se obtuvieron los niveles de voltaje de input y output para los niveles altos y bajos de ambas compuertas, as\'i como los m\'argenes de ruido. Estos figuran en la siguiente tabla.
-\begin{center}
+
 \begin{table}[H]
+\centering
 \begin{tabular}{|l|l|l|}
 \hline
                           & NPN   & PNP    \\
+\hline
 High Level Input Voltage  & 1.18V & 4.28V  \\
 Low Level Input Voltage   & 518mV & 3.08V  \\
 High Level Output Voltage & 4.88V & 4.53V  \\
 Low Level Output Voltage  & 462mV & 12.5mV \\
 High Noise Margin         & 3.7V  & 0.25V  \\
-Low Noise Margin          & 56mV  & 3.067V
+Low Noise Margin          & 56mV  & 3.067V \\
+\hline	
 \end{tabular}
 \end{table}
-\end{center}
+
+
 Posteriormente, midiendo las curvas de entrada y salida en simult\'aneo, se obtuvieron los tiempos de transición y las demoras de propagación para ambas compuertas. Luego, se cargaron las compuertas con un capacitor de 10nF, y obteniendo la derivada de la tensión de salida, utilizando la ley de Ohm para capacitores pudo determinarse la corriente m\'axima a trav\'es de la compuerta. Estos datos figuran en la siguiente tabla.
-\begin{center}
+
 \begin{table}[H]
+\centering
 \begin{tabular}{|l|l|l|}
 \hline
                                        & \textbf{NPN} & \textbf{PNP} \\ \hline
@@ -41,9 +46,10 @@ Posteriormente, midiendo las curvas de entrada y salida en simult\'aneo, se obtu
 \textbf{Max Output Current}            & 14.68mA      & 9.25mA       \\ \hline
 \end{tabular}
 \end{table}
-\end{center}
 
-\subsubsection{Mediciones en osciloscopio}
+
+\subsubsection*{Mediciones en osciloscopio}
+\newpage
 \begin{multicols}{2}
 
 \begin{figure}[H]
