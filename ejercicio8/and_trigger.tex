@@ -4,7 +4,7 @@
 (myand.in 1)++(left:1.5) node(trg_en){}
 (myand.in 2)++(left:1.5) node(c_ready){}
 (trg_en) node[left](){TRIGGER\_ENABLE}
-(c_ready) node[left](){CIRCUIT\_READY}
+(c_ready) node[left](){READY}
 (trg_en) to[short,o-] (myand.in 1)
 (c_ready) to[short,o-] (myand.in 2)
 (myand.out) to[short,-o] ++(right:1)
