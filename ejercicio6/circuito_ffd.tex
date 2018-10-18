@@ -1,0 +1,37 @@
+\begin{circuitikz}[scale=1] \draw
+(0,0) node[draw,minimum width=2cm,minimum height=2.4cm,anchor=south west]{}
+(5,0) node[draw,minimum width=2cm,minimum height=2.4cm,anchor=south west]{}
+
+(0,0.6) node[right](Clkm){Clk}
+(0,1.8) node[right](Dm){D}
+(2,0.6) node[left](Qm_){$\bar{Q}$}
+(2,1.8) node[left](Qm){Q}
+
+
+
+(5,0.6) node[right](Clks){Clk}
+(5,1.8) node[right](Ds){D}
+(7,0.6) node[left](Qs_){$\bar{Q}$}
+(7,1.8) node[left](Qs){Q}
+
+;
+\draw
+[thick,dashed] (-2,-2.5) rectangle (8,3);
+
+\draw
+(0,1.8) to[short,-o] ++ (left:3) node[left](D){D}
+(0,0.6) to[short,-o] ++ (left:3) node[left](clk){Clk}
+
+(-1,0.6) to[short,*-] ++(down:2) to [short] ++(right:1) node(notin){}
+++(right:1)node[american not port](not){}
+(notin) to[short] (not.in)
+(not.out) to[short] ++(right:2) node(notout){}
+(notout) to[short,-] (notout|-Clks)
+to[short] (5,0.6)
+
+(2,1.8) to[short] (5,1.8)
+
+(7,1.8) to[short,-o] ++(right:2) node[right](Q){Q}
+(7,0.6) to[short,-o] ++(right:2) node[right](noQ){$\bar{Q}$}
+;
+\end{circuitikz}
