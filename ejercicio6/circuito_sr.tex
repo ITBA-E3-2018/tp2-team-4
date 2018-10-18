@@ -1,0 +1,26 @@
+\begin{circuitikz}[scale=1] \draw
+(0,0) node[nand port](nandR){}
+(0,4) node[nand port](nandS){}
+(3,0.28) node[nand port](nandR2){}
+++(right:0.7) node(nodo_Q){}
+(nandR2.out) to[short, -o] ++(right:2) node[right]{$\bar{Q}$}
+(3,3.72) node[nand port](nandS2){}
+++(right:0.7) node(nodoQ){}
+(nandS2.out) to[short, -o] ++(right:2) node[right]{Q}
+(nandR.out) -| (nandR2.in 2)
+(nandS.out) -| (nandS2.in 1)
+(nandR2.in 1) to[short] ++(-0.5,0) to[short] ++(0,0.7) to[short] ++(2.5,1.5) coordinate(r)
+(nandS2.in 2) to[short] ++(-0.5,0) to[short] ++(0,-0.7) to[short] ++(2.5,-1.5) coordinate(s)
+(s) to[short,-*] (s|-nodo_Q)
+(r) to[short,-*] (s|-nodoQ)
+
+(nandS.in 2) to[short] ++(left:0.5) coordinate (s2)
+(nandR.in 1) to[short] ++(left:0.5) coordinate (r2)
+(r2) to[short] (r2|-s2)
+(-3,2) coordinate (clk)
+(clk) node[left](){Clk}
+(clk) to[short, o-*] (clk-|s2)
+(nandS.in 1) to[short, -o] (nandS.in 1-|clk) node[left](){S}
+(nandR.in 2) to[short, -o] (nandR.in 2-|clk) node[left](){R}
+;
+\end{circuitikz}

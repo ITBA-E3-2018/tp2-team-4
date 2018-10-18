@@ -1,0 +1,31 @@
+\begin{circuitikz}[scale=1]
+\draw
+(0,0) node[nand port](nand1){}
+(0,3) node[nand port](nand2){}
+(3,1.5) node[nand port](nand3){}
+(nand1.in 1) ++(left:4) node(A){}
+(nand1.in 2) ++(left:4)++(down:1) node(B1){}
+
+(nand2.in 1) ++(left:4) node[left](B2){}
+(nand2.in 2) ++(left:4)++(down:1) node(C){}
+
+(B2) ++(right:2) node[american not port](not2){}
+(A) ++(right:2) node[american not port](not1){}
+
+(B2) to[short,o-](not2.in) (not2.out) -- (nand2.in 1)
+(C) to[short,o-] ++(right:3) |- (nand2.in 2)
+(A) to[short,o-] (not1.in) (not1.out) -- (nand1.in 1)
+(B1) to[short,o-] ++(right:3) |- (nand1.in 2)
+
+(nand1.out) -- ++(right:0.5) |- (nand3.in 2)
+(nand2.out) -- ++(right:0.5) |- (nand3.in 1)
+
+(A) node[left](inA){A}
+(B1) node[left](inB1){B}
+(B2) node[left](inB2){B}
+(C) node[left](inC){C}
+
+(nand3.out) to[short,-o] ++(right:1) node[right](Y){Y}
+
+;
+\end{circuitikz}
