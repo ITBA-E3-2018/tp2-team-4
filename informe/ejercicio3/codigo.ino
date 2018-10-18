@@ -18,12 +18,9 @@ void loop() {
   digitalWrite(B, LOW);
   digitalWrite(C, HIGH);
 
-
   digitalWrite(A, LOW);
   digitalWrite(B, HIGH);
   digitalWrite(C, HIGH);
 
   delay(1000);
-
-  
 }

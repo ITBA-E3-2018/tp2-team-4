@@ -3,17 +3,35 @@
 Se nos pidió implementar un Flip-Flop D y un Latch SR a partir de compuertas lógicas discretas, medir sus parámetros que consideramos importantes para la caracterización de su funcionamiento y comparar con equivalentes comerciales. Para verificar las tablas características de funcionamiento de los dispositivos se utilizó una placa experimental Arduino UNO para programar las distintas configuraciones de señales de entrada, y se midieron señales de entrada y salida en un osciloscopio digital. 
 
 \subsection*{Latch SR}
+
+%\begin{figure}[H]
+%\centering
+%\input{ejercicio6/circuito_sr}
+%\caption{Latch SR implementado} \label{6_fig1}
+%\end{figure}
+
+%\begin{wrapfigure}{l}{6.5cm}
+%\begin{center}
+%\resizebox{.5\linewidth}{!}{\parbox{\linewidth}{\input{ejercicio6/circuito_sr}}}
+%\caption{Latch SR implementado} 
+%\label{6_fig1}
+%\end{center}
+%\end{wrapfigure}
+
+\newcommand{\myboxa}
+{%
+    \begin{wrapfigure}{o}{0.3\textwidth}
+\begin{center}
+\resizebox{.5\linewidth}{!}{\parbox{\linewidth}{\input{ejercicio6/circuito_sr}}}
+\caption{Latch SR implementado} 
+\label{6_fig1}
+\end{center}
+    \end{wrapfigure}\par\noindent
+}
+
+\myboxa
+
 Para la implementación del Latch SR se siguió el diseño del \emph{Gated SR Latch}, encontrado en la sección 5.2 de \emph{Fundamentals of Digital Logic with Verilog Design}, el mismo se muestra en la Figura \ref{6_fig1}. El dispositivo se implemetó utilizando compuertas NAND 74HC00, de tecnología CMOS.
-
-
-
-\begin{figure}[H]
-\centering
-\input{ejercicio6/circuito_sr}
-\caption{Latch SR implementado} \label{6_fig1}
-\end{figure}
-
-
 
 Se analizó su correcto funcionamiento para las distintas configuraciones de señales de entrada, y se obtuvo la siguiente tabla característica:
 
@@ -31,7 +49,7 @@ Clk & S & R & Q(t+1) \\
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.25]{ejercicio6/sr_1.png}
+\includegraphics[scale=0.15]{ejercicio6/sr_1.png}
 \caption{Estado inestable del Latch SR} \label{6_fig4}
 \end{center}
 \end{figure}
@@ -72,7 +90,7 @@ Para la implementación del Flip-Flop D, se siguió al igual que para el Latch S
 
 \begin{figure}[H]
 \centering
-\input{ejercicio6/circuito_d}
+\resizebox{.5\linewidth}{!}{\parbox{\linewidth}{\input{ejercicio6/circuito_d}}}
 \caption{Modulo Latch D} \label{6_fig2}
 \end{figure}
 
@@ -81,7 +99,7 @@ En la Figura \ref{6_fig2} se muestra la implementación de un módulo Latch D, e
 
 \begin{figure}[H]
 \centering
-\input{ejercicio6/circuito_ffd}
+\resizebox{.5\linewidth}{!}{\parbox{\linewidth}{\input{ejercicio6/circuito_ffd}}}
 \caption{Diagrama Flip-Flop D} \label{6_fig3}
 \end{figure}
 
