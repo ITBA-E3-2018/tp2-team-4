@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300) (preloaded format=pdflatex 2017.10.10)  18 OCT 2018 01:23
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630) (preloaded format=pdflatex 2018.10.17)  18 OCT 2018 00:21
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 entering extended mode
 **./main.tex
 (main.tex
 LaTeX2e <2017-04-15>
+<<<<<<< HEAD
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+=======
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
@@ -340,8 +348,15 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+<<<<<<< HEAD
 Package: babel 2016/04/23 3.9r The Babel package
+=======
+Package: babel 2018/02/14 3.18 The Babel package
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
 *************************************
 * Local config file bblopts.cfg used
 *
@@ -353,19 +368,30 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+<<<<<<< HEAD
 File: babel.def 2016/04/23 3.9r Babel common definitions
+=======
+File: babel.def 2018/02/14 3.18 Babel common definitions
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 \babel@savecnt=\count87
 \U@D=\dimen103
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
+\bbl@dirlevel=\count88
 )
 \es@quottoks=\toks16
-\es@quotdepth=\count88
+\es@quotdepth=\count89
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+<<<<<<< HEAD
 Package: amsmath 2016/11/05 v2.16a AMS math features
+=======
+Package: amsmath 2017/09/02 v2.17a AMS math features
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -384,13 +410,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count89
+\inf@bad=\count90
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count90
-\leftroot@=\count91
+\uproot@=\count91
+\leftroot@=\count92
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count92
-\DOTSCASE@=\count93
+\classnum@=\count93
+\DOTSCASE@=\count94
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -399,15 +425,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen106
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count94
-\c@MaxMatrixCols=\count95
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
 \dotsspace@=\muskip10
-\c@parentequation=\count96
-\dspbrk@lvl=\count97
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
 \tag@help=\toks18
-\row@=\count98
-\column@=\count99
-\maxfields@=\count100
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
 \andhelp@=\toks19
 \eqnshift@=\dimen107
 \alignsep@=\dimen108
@@ -433,14 +459,22 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+<<<<<<< HEAD
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+=======
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+<<<<<<< HEAD
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+=======
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -451,6 +485,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+<<<<<<< HEAD
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
@@ -460,6 +495,9 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count101
+=======
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
@@ -879,7 +917,11 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgfplots\pgfplots.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex"
 )
+<<<<<<< HEAD
 Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
+=======
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.code.tex"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscore.code.tex"
 \t@pgfplots@toka=\toks40
@@ -904,7 +946,13 @@ soldpgfsupp_pgflibraryfpu.code.tex")
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
 soldpgfsupp_pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count135
+<<<<<<< HEAD
 ))
+=======
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_leq.code.tex"))
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsutil.code
 .tex"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
@@ -1008,6 +1056,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
+<<<<<<< HEAD
 
 (ejercicio3/karnaugh_def.tex) (main.aux (caratula.aux)
 LaTeX Info: Redefining \. on input line 7.
@@ -1053,13 +1102,231 @@ Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
+=======
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
+Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 )
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+\XKV@depth=\count148
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box46
+)
+\tc@llx=\dimen198
+\tc@lly=\dimen199
+\tc@urx=\dimen256
+\tc@ury=\dimen257
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen258
+\adjbox@Height=\dimen259
+\adjbox@Depth=\dimen260
+\adjbox@Totalheight=\dimen261
+\adjbox@pwidth=\dimen262
+\adjbox@pheight=\dimen263
+\adjbox@pdepth=\dimen264
+\adjbox@ptotalheight=\dimen265
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count149
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box47
+\sift@deathcycles=\count150
+\@vwid@loff=\dimen266
+\@vwid@roff=\dimen267
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen268
+\WF@size=\dimen269
+\c@WF@wrappedlines=\count151
+\WF@box=\box48
+\WF@everypar=\toks47
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count152
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen270
+\lightrulewidth=\dimen271
+\cmidrulewidth=\dimen272
+\belowrulesep=\dimen273
+\belowbottomsep=\dimen274
+\aboverulesep=\dimen275
+\abovetopsep=\dimen276
+\cmidrulesep=\dimen277
+\cmidrulekern=\dimen278
+\defaultaddspace=\dimen279
+\@cmidla=\count153
+\@cmidlb=\count154
+\@aboverulesep=\dimen280
+\@belowrulesep=\dimen281
+\@thisruleclass=\count155
+\@lastruleclass=\count156
+\@thisrulewidth=\dimen282
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen283
+\captionmargin@=\dimen284
+\captionwidth=\dimen285
+\caption@tempdima=\dimen286
+\caption@indent=\dimen287
+\caption@parindent=\dimen288
+\caption@hangindent=\dimen289
+)
+\c@ContinuedFloat=\count157
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textpos\textpos.sty"
+Package: textpos 2016/06/07 v1.8
+
+Package: textpos 2016/06/07 1.8, absolute positioning of text on the page
+\TP@textbox=\box49
+\TP@holdbox=\box50
+\TPHorizModule=\dimen290
+\TPVertModule=\dimen291
+\TP@margin=\dimen292
+\TP@absmargin=\dimen293
+Grid set 16 x 16 = 37.34424pt x 52.81541pt
+\TPboxrulesize=\dimen294
+\TP@ox=\dimen295
+\TP@oy=\dimen296
+\TP@tbargs=\toks48
+\TP@prevdepth=\dimen297
+TextBlockOrigin set to 0pt x 0pt
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count158
+\calc@Bcount=\count159
+\calc@Adimen=\dimen298
+\calc@Bdimen=\dimen299
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count160
+\calc@Cskip=\skip50
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+\AM@pagewidth=\dimen300
+\AM@pageheight=\dimen301
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box51
+\AM@global@opts=\toks49
+\AM@toc@title=\toks50
+\c@AM@survey=\count161
+\AM@templatesizebox=\box52
+)
+(karnaugh_def.tex) (main.aux (caratula.aux)
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+
+
+LaTeX Warning: Label `7_fig1' multiply defined.
+
+
+LaTeX Warning: Label `7_fig2' multiply defined.
+
+
+LaTeX Warning: Label `7_fig1' multiply defined.
+
+
+LaTeX Warning: Label `7_fig2' multiply defined.
+
+
+LaTeX Warning: Label `7_fig1' multiply defined.
+
+
+LaTeX Warning: Label `7_fig2' multiply defined.
+
+)
+<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+=======
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count162
+\scratchdimen=\dimen302
+\scratchbox=\box53
+\nofMPsegments=\count163
+\nofMParguments=\count164
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count165
+\MPscratchDim=\dimen303
+\MPnumerator=\count166
+\makeMPintoPDFobject=\count167
+\everyMPtoPDFconversion=\toks52
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
@@ -1076,15 +1343,28 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
@@ -1126,8 +1406,20 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
-\c@lstlisting=\count154
+\c@lstlisting=\count168
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box54
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 \openout2 = `caratula.aux'.
+
 
 (caratula.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 20.
@@ -1141,6 +1433,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
+<<<<<<< HEAD
 {C:/Users/lisan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
 \openout2 = `ejercicio2/ejercicio2.aux'.
 
@@ -1156,6 +1449,74 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
+=======
+{C:/Users/milto/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+(ejercicio2/ejercicio2.tex
+<ejercicio2/HC-LS.png, id=12, 745.78625pt x 379.4175pt>
+File: ejercicio2/HC-LS.png Graphic file (type png)
+<use ejercicio2/HC-LS.png>
+Package pdftex.def Info: ejercicio2/HC-LS.png  used on input line 26.
+(pdftex.def)             Requested size: 170.71652pt x 86.84734pt.
+<ejercicio2/LS-HC.png, id=14, 747.79375pt x 374.39874pt>
+File: ejercicio2/LS-HC.png Graphic file (type png)
+<use ejercicio2/LS-HC.png>
+Package pdftex.def Info: ejercicio2/LS-HC.png  used on input line 34.
+(pdftex.def)             Requested size: 170.71652pt x 85.47005pt.
+<ejercicio2/HCT-LS.png, id=15, 746.79pt x 372.39125pt>
+File: ejercicio2/HCT-LS.png Graphic file (type png)
+<use ejercicio2/HCT-LS.png>
+Package pdftex.def Info: ejercicio2/HCT-LS.png  used on input line 48.
+(pdftex.def)             Requested size: 170.71652pt x 85.12541pt.
+<ejercicio2/LS-HCT.png, id=16, 763.85374pt x 371.3875pt>
+File: ejercicio2/LS-HCT.png Graphic file (type png)
+<use ejercicio2/LS-HCT.png>
+Package pdftex.def Info: ejercicio2/LS-HCT.png  used on input line 56.
+(pdftex.def)             Requested size: 170.71652pt x 83.00322pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+[1
+
+ <./ejercicio2/HC-LS.png> <./ejercicio2/LS-HC.png> <./ejercicio2/HCT-LS.png> <.
+/ejercicio2/LS-HCT.png>]
+<ejercicio2/OSC_LS_HC.png, id=26, 1027.84pt x 825.0825pt>
+File: ejercicio2/OSC_LS_HC.png Graphic file (type png)
+<use ejercicio2/OSC_LS_HC.png>
+Package pdftex.def Info: ejercicio2/OSC_LS_HC.png  used on input line 80.
+(pdftex.def)             Requested size: 170.71652pt x 137.0392pt.
+<ejercicio2/OSC_HC_LS.png, id=27, 1027.84pt x 825.0825pt>
+File: ejercicio2/OSC_HC_LS.png Graphic file (type png)
+<use ejercicio2/OSC_HC_LS.png>
+Package pdftex.def Info: ejercicio2/OSC_HC_LS.png  used on input line 88.
+(pdftex.def)             Requested size: 170.71652pt x 137.0392pt.
+<ejercicio2/OSC_AMBAS.png, id=28, 1027.84pt x 825.0825pt>
+File: ejercicio2/OSC_AMBAS.png Graphic file (type png)
+<use ejercicio2/OSC_AMBAS.png>
+Package pdftex.def Info: ejercicio2/OSC_AMBAS.png  used on input line 99.
+(pdftex.def)             Requested size: 227.62204pt x 182.71474pt.
+) (ejercicio3/ejercicio3.tex [2 <./ejercicio2/OSC_LS_HC.png (PNG copy)> <./ejer
+cicio2/OSC_HC_LS.png (PNG copy)> <./ejercicio2/OSC_AMBAS.png (PNG copy)>]
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+125.
+
+(ejercicio3/circuito.tex)
+Overfull \hbox (158.1769pt too wide) in paragraph at lines 31--125
+[][] 
+ []
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 12
+5.
+
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1170,23 +1531,19 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
-)
-<ejercicio3/imagenes/riple.png, id=21, 1027.84pt x 825.0825pt>
+) [3]
+<ejercicio3/imagenes/riple.png, id=39, 770.88pt x 578.91281pt>
 File: ejercicio3/imagenes/riple.png Graphic file (type png)
-
 <use ejercicio3/imagenes/riple.png>
-Package pdftex.def Info: ejercicio3/imagenes/riple.png used on input line 56.
-(pdftex.def)             Requested size: 308.35437pt x 247.52666pt.
- [3 <./ejercicio3/imagenes/riple.png (PNG copy)>] <ejercicio3/imagenes/tdown.pn
-g, id=27, 1027.84pt x 825.0825pt>
+Package pdftex.def Info: ejercicio3/imagenes/riple.png  used on input line 154.
+
+(pdftex.def)             Requested size: 192.71953pt x 144.72784pt.
+<ejercicio3/imagenes/tdown.png, id=40, 770.88pt x 576.65437pt>
 File: ejercicio3/imagenes/tdown.png Graphic file (type png)
-
 <use ejercicio3/imagenes/tdown.png>
-Package pdftex.def Info: ejercicio3/imagenes/tdown.png used on input line 65.
-(pdftex.def)             Requested size: 308.35437pt x 247.52666pt.
-) [4 <./ejercicio3/imagenes/tdown.png (PNG copy)>]
-\openout2 = `ejercicio4/ejercicio4.aux'.
+Package pdftex.def Info: ejercicio3/imagenes/tdown.png  used on input line 161.
 
+<<<<<<< HEAD
  (ejercicio4/ejercicio4.tex (ejercicio4/circuito1.tex)
 
 LaTeX Warning: File `ejercicio4/imagenes/sin_capacitor.png' not found on input 
@@ -1230,18 +1587,44 @@ If that doesn't work, type  X <return>  to quit.
 
  (ejercicio5/Ejercicio5.tex
 <ejercicio5/E3_CirEj5.jpg, id=39, 371.88937pt x 228.25275pt>
-File: ejercicio5/E3_CirEj5.jpg Graphic file (type jpg)
+=======
+(pdftex.def)             Requested size: 192.71953pt x 144.16324pt.
+)
+(ejercicio4/ejercicio4.tex (ejercicio4/circuito1.tex)
+Overfull \hbox (68.8569pt too wide) in paragraph at lines 32--12
+[][] 
+ []
 
+[4 <./ejercicio3/imagenes/riple.png> <./ejercicio3/imagenes/tdown.png>]
+<imagenes/sin_capacitor.png, id=46, 1027.84pt x 825.0825pt>
+File: imagenes/sin_capacitor.png Graphic file (type png)
+<use imagenes/sin_capacitor.png>
+Package pdftex.def Info: imagenes/sin_capacitor.png  used on input line 73.
+(pdftex.def)             Requested size: 185.00322pt x 148.50844pt.
+<imagenes/con_capacitor.png, id=47, 1027.84pt x 825.0825pt>
+File: imagenes/con_capacitor.png Graphic file (type png)
+<use imagenes/con_capacitor.png>
+Package pdftex.def Info: imagenes/con_capacitor.png  used on input line 80.
+(pdftex.def)             Requested size: 185.00322pt x 148.50844pt.
+)
+(ejercicio5/ejercicio5.tex
+<ejercicio5/E3_CirEj5.jpg, id=48, 371.88937pt x 228.25275pt>
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
+File: ejercicio5/E3_CirEj5.jpg Graphic file (type jpg)
 <use ejercicio5/E3_CirEj5.jpg>
-Package pdftex.def Info: ejercicio5/E3_CirEj5.jpg used on input line 6.
+Package pdftex.def Info: ejercicio5/E3_CirEj5.jpg  used on input line 6.
 (pdftex.def)             Requested size: 227.62204pt x 139.71112pt.
+<<<<<<< HEAD
 
 <ejercicio5/PullUp.jpg, id=40, 246.9225pt x 205.76875pt>
+=======
+<ejercicio5/PullUp.jpg, id=49, 246.9225pt x 205.76875pt>
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 File: ejercicio5/PullUp.jpg Graphic file (type jpg)
-
 <use ejercicio5/PullUp.jpg>
-Package pdftex.def Info: ejercicio5/PullUp.jpg used on input line 15.
+Package pdftex.def Info: ejercicio5/PullUp.jpg  used on input line 15.
 (pdftex.def)             Requested size: 142.26378pt x 118.55157pt.
+<<<<<<< HEAD
 ) [7
 
 
@@ -1305,4 +1688,229 @@ PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+) (ejercicio6/ejercicio6.tex [5 <./imagenes/sin_capacitor.png (PNG copy)> <./im
+agenes/con_capacitor.png (PNG copy)> <./ejercicio5/E3_CirEj5.jpg>] (ejercicio6/
+circuito_sr.tex)
+Overfull \hbox (123.80833pt too wide) in paragraph at lines 26--32
+[][] 
+ []
+
+<ejercicio6/sr_1.png, id=54, 1027.84pt x 825.0825pt>
+File: ejercicio6/sr_1.png Graphic file (type png)
+<use ejercicio6/sr_1.png>
+Package pdftex.def Info: ejercicio6/sr_1.png  used on input line 52.
+(pdftex.def)             Requested size: 154.16934pt x 123.75703pt.
+[6 <./ejercicio5/PullUp.jpg> <./ejercicio6/sr_1.png (PNG copy)>]
+(ejercicio6/circuito_d.tex) (ejercicio6/circuito_ffd.tex))
+(ejercicio7/ejercicio7.tex
+<ejercicio7/imagenes/asynccircuito.png, id=60, 347.49825pt x 173.448pt>
+File: ejercicio7/imagenes/asynccircuito.png Graphic file (type png)
+<use ejercicio7/imagenes/asynccircuito.png>
+Package pdftex.def Info: ejercicio7/imagenes/asynccircuito.png  used on input l
+ine 19.
+(pdftex.def)             Requested size: 173.74869pt x 86.72379pt.
+<ejercicio7/imagenes/asyncaltium.png, id=61, 445.665pt x 432.11438pt>
+File: ejercicio7/imagenes/asyncaltium.png Graphic file (type png)
+<use ejercicio7/imagenes/asyncaltium.png>
+Package pdftex.def Info: ejercicio7/imagenes/asyncaltium.png  used on input lin
+e 26.
+(pdftex.def)             Requested size: 111.41597pt x 108.02832pt.
+ [7]
+<ejercicio7/imagenes/timepropagation.png, id=65, 770.88pt x 578.16pt>
+File: ejercicio7/imagenes/timepropagation.png Graphic file (type png)
+<use ejercicio7/imagenes/timepropagation.png>
+Package pdftex.def Info: ejercicio7/imagenes/timepropagation.png  used on input
+ line 59.
+(pdftex.def)             Requested size: 192.71953pt x 144.53964pt.
+
+Overfull \hbox (7.77663pt too wide) in paragraph at lines 59--60
+ [] 
+ []
+
+<ejercicio7/imagenes/async.png, id=66, 770.88pt x 578.91281pt>
+File: ejercicio7/imagenes/async.png Graphic file (type png)
+<use ejercicio7/imagenes/async.png>
+Package pdftex.def Info: ejercicio7/imagenes/async.png  used on input line 93.
+(pdftex.def)             Requested size: 154.17326pt x 115.7805pt.
+<ejercicio7/imagenes/async2.png, id=67, 770.88pt x 577.40718pt>
+File: ejercicio7/imagenes/async2.png Graphic file (type png)
+<use ejercicio7/imagenes/async2.png>
+Package pdftex.def Info: ejercicio7/imagenes/async2.png  used on input line 100
+.
+(pdftex.def)             Requested size: 154.17326pt x 115.47939pt.
+<ejercicio7/imagenes/async3.png, id=68, 770.88pt x 577.40718pt>
+File: ejercicio7/imagenes/async3.png Graphic file (type png)
+<use ejercicio7/imagenes/async3.png>
+Package pdftex.def Info: ejercicio7/imagenes/async3.png  used on input line 107
+.
+(pdftex.def)             Requested size: 154.17326pt x 115.47939pt.
+<ejercicio7/imagenes/async4.png, id=69, 770.88pt x 578.16pt>
+File: ejercicio7/imagenes/async4.png Graphic file (type png)
+<use ejercicio7/imagenes/async4.png>
+Package pdftex.def Info: ejercicio7/imagenes/async4.png  used on input line 114
+.
+(pdftex.def)             Requested size: 154.17326pt x 115.62994pt.
+[8 <./ejercicio7/imagenes/asynccircuito.png> <./ejercicio7/imagenes/asyncaltium
+.png> <./ejercicio7/imagenes/timepropagation.png>]
+<ejercicio7/imagenes/sync25.png, id=76, 616.704pt x 463.13025pt>
+File: ejercicio7/imagenes/sync25.png Graphic file (type png)
+<use ejercicio7/imagenes/sync25.png>
+Package pdftex.def Info: ejercicio7/imagenes/sync25.png  used on input line 147
+.
+(pdftex.def)             Requested size: 123.33861pt x 92.6244pt.
+<ejercicio7/imagenes/sync24.png, id=77, 616.704pt x 463.13025pt>
+File: ejercicio7/imagenes/sync24.png Graphic file (type png)
+<use ejercicio7/imagenes/sync24.png>
+Package pdftex.def Info: ejercicio7/imagenes/sync24.png  used on input line 154
+.
+(pdftex.def)             Requested size: 123.33861pt x 92.6244pt.
+) (ejercicio8/ejercicio8.tex
+[9 <./ejercicio7/imagenes/async.png> <./ejercicio7/imagenes/async2.png> <./ejer
+cicio7/imagenes/async3.png> <./ejercicio7/imagenes/async4.png> <./ejercicio7/im
+agenes/sync25.png> <./ejercicio7/imagenes/sync24.png>]
+(ejercicio8/circuito1.tex) (ejercicio8/escalon_trigger2.tex)
+(ejercicio8/circuito2.tex) [10] (ejercicio8/and_trigger.tex)
+(ejercicio8/555_astable.tex) [11] (ejercicio8/and_contador.tex) [12]
+
+pdfTeX warning: pdflatex (file ./ejercicio8/Esquematico.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<ejercicio8/Esquematico.pdf, id=102, 845.07724pt x 597.55246pt>
+File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
+<use ejercicio8/Esquematico.pdf>
+Package pdftex.def Info: ejercicio8/Esquematico.pdf  used on input line 130.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+
+
+pdfTeX warning: pdflatex (file ./ejercicio8/Esquematico.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
+<use ejercicio8/Esquematico.pdf>
+Package pdftex.def Info: ejercicio8/Esquematico.pdf  used on input line 130.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+
+
+pdfTeX warning: pdflatex (file ./ejercicio8/Esquematico.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./ejercicio8/Esquematico.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<ejercicio8/Esquematico.pdf, id=105, page=1, 845.07724pt x 597.55246pt>
+File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
+<use ejercicio8/Esquematico.pdf, page 1>
+Package pdftex.def Info: ejercicio8/Esquematico.pdf , page1 used on input line 
+130.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
+<use ejercicio8/Esquematico.pdf, page 1>
+Package pdftex.def Info: ejercicio8/Esquematico.pdf , page1 used on input line 
+130.
+(pdftex.def)             Requested size: 845.11386pt x 597.57834pt.
+[13]
+File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
+<use ejercicio8/Esquematico.pdf, page 1>
+Package pdftex.def Info: ejercicio8/Esquematico.pdf , page1 used on input line 
+130.
+(pdftex.def)             Requested size: 845.11386pt x 597.57834pt.
+File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
+<use ejercicio8/Esquematico.pdf, page 1>
+Package pdftex.def Info: ejercicio8/Esquematico.pdf , page1 used on input line 
+130.
+(pdftex.def)             Requested size: 845.11386pt x 597.57834pt.
+File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
+<use ejercicio8/Esquematico.pdf, page 1>
+Package pdftex.def Info: ejercicio8/Esquematico.pdf , page1 used on input line 
+130.
+(pdftex.def)             Requested size: 845.11386pt x 597.57834pt.
+ [14 <./ejercicio8/Esquematico.pdf>]
+
+pdfTeX warning: pdflatex (file ./ejercicio8/Impreso.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<ejercicio8/Impreso.pdf, id=137, 845.07724pt x 597.55246pt>
+File: ejercicio8/Impreso.pdf Graphic file (type pdf)
+<use ejercicio8/Impreso.pdf>
+Package pdftex.def Info: ejercicio8/Impreso.pdf  used on input line 132.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+
+
+pdfTeX warning: pdflatex (file ./ejercicio8/Impreso.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+File: ejercicio8/Impreso.pdf Graphic file (type pdf)
+<use ejercicio8/Impreso.pdf>
+Package pdftex.def Info: ejercicio8/Impreso.pdf  used on input line 132.
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+
+
+pdfTeX warning: pdflatex (file ./ejercicio8/Impreso.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./ejercicio8/Impreso.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<ejercicio8/Impreso.pdf, id=140, page=1, 845.07724pt x 597.55246pt>
+File: ejercicio8/Impreso.pdf Graphic file (type pdf)
+<use ejercicio8/Impreso.pdf, page 1>
+Package pdftex.def Info: ejercicio8/Impreso.pdf , page1 used on input line 132.
+
+(pdftex.def)             Requested size: 845.07518pt x 597.551pt.
+File: ejercicio8/Impreso.pdf Graphic file (type pdf)
+<use ejercicio8/Impreso.pdf, page 1>
+Package pdftex.def Info: ejercicio8/Impreso.pdf , page1 used on input line 132.
+
+(pdftex.def)             Requested size: 845.11386pt x 597.57834pt.
+File: ejercicio8/Impreso.pdf Graphic file (type pdf)
+<use ejercicio8/Impreso.pdf, page 1>
+Package pdftex.def Info: ejercicio8/Impreso.pdf , page1 used on input line 132.
+
+(pdftex.def)             Requested size: 845.11386pt x 597.57834pt.
+File: ejercicio8/Impreso.pdf Graphic file (type pdf)
+<use ejercicio8/Impreso.pdf, page 1>
+Package pdftex.def Info: ejercicio8/Impreso.pdf , page1 used on input line 132.
+
+(pdftex.def)             Requested size: 845.11386pt x 597.57834pt.
+File: ejercicio8/Impreso.pdf Graphic file (type pdf)
+<use ejercicio8/Impreso.pdf, page 1>
+Package pdftex.def Info: ejercicio8/Impreso.pdf , page1 used on input line 132.
+
+(pdftex.def)             Requested size: 845.11386pt x 597.57834pt.
+[15 <./ejercicio8/Impreso.pdf>]) (main.aux (caratula.aux)
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 40356 strings out of 493305
+ 998170 string characters out of 3136281
+ 1388829 words of memory out of 3000000
+ 43194 multiletter control sequences out of 15000+200000
+ 12762 words of font info for 48 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 69i,18n,119p,1474b,2036s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (16 pages, 2240068 bytes).
+PDF statistics:
+ 198 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 28770c77f59a955116c90b016e0ebd8b5d5b6c49
 
