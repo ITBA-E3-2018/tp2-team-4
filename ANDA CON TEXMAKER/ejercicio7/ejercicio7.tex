@@ -16,7 +16,7 @@ Para el contador asincrónico se siguió el esquema mostrado en la Figura \ref{7
 \begin{center}
   \begin{minipage}[b]{0.4\textwidth}
   	\begin{center}
-  		\includegraphics[scale=0.25]{ejercicio7/imagenes/asynccircuito.png}
+  		\includegraphics[scale=0.5]{ejercicio7/imagenes/asynccircuito.png}
   	\end{center}
   \caption{Circuito utilizado}
   \label{7_fig1}
@@ -136,7 +136,27 @@ Medimos el tiempo de propagación total desde que la señal del Clock comienza a
 %\end{figure}
 
 \subsection*{Contador Sincrónico}
-Este contador que avanza de forma descendente al igual que el contador anterior, pero con la diferencia de que los clock de cada Flip-Flop estarán conectados directamente a la misma señal en lugar de usar la señal del flip-flop anterior. Este cambio hará que cada parte se active con el flanco derecho de la misma señal, reaccionando todas las partes del contador a un mismo tiempo determinado, siempre y cuando se trate del mismo componente o tengan las mismas características temporales, y no obtener un arrastre en el delay final.
+
+Este contador avanza de forma ascendente, y los clock de cada Flip-Flop estarán conectados directamente a la misma señal en lugar de usar la señal del flip-flop anterior. Este cambio hará que cada parte se active con el flanco derecho de la misma señal (ver Figura \ref{7_fig8}), reaccionando todas las partes del contador a un mismo tiempo determinado, siempre y cuando se trate del mismo componente o tengan las mismas características temporales, y no obtener un arrastre en el delay final.
 \newline
-Al mirar el tiempo de propagación de este circuito obtenemos que solo hay 24ns de delay, 17ns correspondiente al flip-flop (ahora no se suman sus delay porque son independientes) y 7ns correspondientes a la compuerta AND del circuito, esto quiere decir que recién a los 42,66MHz el circuito empezará a togglear porque el tiempo de delay superará la frecuencia de trabajo al igual que en el caso anterior. No pudimos obtener imágenes de este caso porque se necesita tener un osciloscopio de más de 200MHz debido a que si el instrumento no tiene un ancho de banda 5 veces mayor a la frecuencia de trabajo se perderán detalles de la señal que impiden tener una medición correcta.
+Al mirar el tiempo de propagación de este circuito (ver Figura \ref{7_fig9}) obtenemos que solo hay 24ns de delay, 17ns correspondiente al flip-flop (ahora no se suman sus delay porque son independientes) y 7ns correspondientes a la compuerta AND del circuito, esto quiere decir que recién a los 42,66MHz el circuito empezará a togglear porque el tiempo de delay superará la frecuencia de trabajo al igual que en el caso anterior. No pudimos obtener imágenes de este caso porque se necesita tener un osciloscopio de más de 200MHz debido a que si el instrumento no tiene un ancho de banda 5 veces mayor a la frecuencia de trabajo se perderán detalles de la señal que impiden tener una medición correcta.
+
+\begin{figure}[H]
+\begin{center}
+  \begin{minipage}[b]{0.4\textwidth}
+  	\begin{center}
+  		\includegraphics[scale=0.15]{ejercicio7/imagenes/sync25.png}
+  	\end{center}
+  \caption{Comportamiento a bajas frecuencias}
+  \label{7_fig8}
+  \end{minipage}
+  \begin{minipage}[b]{0.4\textwidth}
+    \begin{center}
+  		\includegraphics[scale=0.15]{ejercicio7/imagenes/sync24.png}
+	\end{center}
+  \caption{Medici\'on de tiempo de propagaci\'on}
+  \label{7_fig9}
+ \end{minipage}
+\end{center}
+\end{figure}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.23)  18 OCT 2018 12:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.23)  18 OCT 2018 15:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1116,29 +1116,7 @@ Package: wrapfig 2003/01/31  v 3.6
 (./karnaugh_def.tex) (./main.aux (./caratula.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (./ejercicio1/ejercicio1.aux) (./ejercicio2/ejercicio2.aux
-
-LaTeX Warning: Label `7_fig1' multiply defined.
-
-
-LaTeX Warning: Label `7_fig2' multiply defined.
-
-
-LaTeX Warning: Label `7_fig1' multiply defined.
-
-
-LaTeX Warning: Label `7_fig2' multiply defined.
-
-) (./ejercicio3/ejercicio3.aux) (./ejercicio4/ejercicio4.aux)
-(./ejercicio5/ejercicio5.aux) (./ejercicio6/ejercicio6.aux)
-(./ejercicio7/ejercicio7.aux
-
-LaTeX Warning: Label `7_fig1' multiply defined.
-
-
-LaTeX Warning: Label `7_fig2' multiply defined.
-
-) (./ejercicio8/ejercicio8.aux))
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -1277,9 +1255,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-\openout2 = `ejercicio1/ejercicio1.aux'.
-
-
 (./ejercicio1/ejercicio1.tex
 <ejercicio1/circuitos.png, id=13, 501.875pt x 319.1925pt>
 File: ejercicio1/circuitos.png Graphic file (type png)
@@ -1296,17 +1271,7 @@ Package pdftex.def Info: ejercicio1/scope_x_Punto1_NPN.png used on input line 5
 1.
 (pdftex.def)             Requested size: 193.47578pt x 155.30688pt.
 
-Overfull \vbox (116.51785pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (116.51785pt too high) has occurred while \output is active []
-
-
-[1
-
-
- <./ejercicio1/circuitos.png> <./ejercicio1/scope_x_Punto1_NPN.png (PNG copy)>]
- <ejercicio1/scope_y_Punto1_NPN.png, id=22, 1027.84pt x 825.0825pt>
+<ejercicio1/scope_y_Punto1_NPN.png, id=15, 1027.84pt x 825.0825pt>
 File: ejercicio1/scope_y_Punto1_NPN.png Graphic file (type png)
 
 <use ejercicio1/scope_y_Punto1_NPN.png>
@@ -1314,7 +1279,16 @@ Package pdftex.def Info: ejercicio1/scope_y_Punto1_NPN.png used on input line 5
 7.
 (pdftex.def)             Requested size: 193.47578pt x 155.30688pt.
 
-<ejercicio1/scope_x_Punto1_PNP.png, id=23, 1027.84pt x 825.0825pt>
+Overfull \vbox (101.68062pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (101.68062pt too high) has occurred while \output is active []
+
+
+[1
+
+ <./ejercicio1/circuitos.png> <./ejercicio1/scope_x_Punto1_NPN.png (PNG copy)>]
+ <ejercicio1/scope_x_Punto1_PNP.png, id=23, 1027.84pt x 825.0825pt>
 File: ejercicio1/scope_x_Punto1_PNP.png Graphic file (type png)
 
 <use ejercicio1/scope_x_Punto1_PNP.png>
@@ -1409,79 +1383,68 @@ Overfull \vbox (92.88058pt too high) has occurred while \output is active []
 [3 <./ejercicio1/pLH-PNP.png (PNG copy)> <./ejercicio1/tHL-NPN.png (PNG copy)> 
 <./ejercicio1/tLH-NPN.png (PNG copy)> <./ejercicio1/tHL-PNP.png (PNG copy)> <./
 ejercicio1/tLH-PNP.png (PNG copy)> <./ejercicio1/maxI-NPN.png (PNG copy)>])
-[4 <./ejercicio1/maxI-PNP.png (PNG copy)>]
-\openout2 = `ejercicio2/ejercicio2.aux'.
-
- (./ejercicio2/ejercicio2.tex
-<ejercicio2/HC-LS.png, id=44, 745.78625pt x 379.4175pt>
+(./ejercicio2/ejercicio2.tex
+<ejercicio2/HC-LS.png, id=41, 745.78625pt x 379.4175pt>
 File: ejercicio2/HC-LS.png Graphic file (type png)
 
 <use ejercicio2/HC-LS.png>
 Package pdftex.def Info: ejercicio2/HC-LS.png used on input line 26.
 (pdftex.def)             Requested size: 170.71652pt x 86.84734pt.
 
-<ejercicio2/LS-HC.png, id=46, 747.79375pt x 374.39874pt>
+<ejercicio2/LS-HC.png, id=43, 747.79375pt x 374.39874pt>
 File: ejercicio2/LS-HC.png Graphic file (type png)
 
 <use ejercicio2/LS-HC.png>
-Package pdftex.def Info: ejercicio2/LS-HC.png used on input line 34.
+Package pdftex.def Info: ejercicio2/LS-HC.png used on input line 32.
 (pdftex.def)             Requested size: 170.71652pt x 85.47005pt.
 
-<ejercicio2/HCT-LS.png, id=47, 746.79pt x 372.39125pt>
+<ejercicio2/HCT-LS.png, id=44, 746.79pt x 372.39125pt>
 File: ejercicio2/HCT-LS.png Graphic file (type png)
 
 <use ejercicio2/HCT-LS.png>
-Package pdftex.def Info: ejercicio2/HCT-LS.png used on input line 48.
+Package pdftex.def Info: ejercicio2/HCT-LS.png used on input line 44.
 (pdftex.def)             Requested size: 170.71652pt x 85.12541pt.
 
-<ejercicio2/LS-HCT.png, id=48, 763.85374pt x 371.3875pt>
+<ejercicio2/LS-HCT.png, id=45, 763.85374pt x 371.3875pt>
 File: ejercicio2/LS-HCT.png Graphic file (type png)
 
 <use ejercicio2/LS-HCT.png>
-Package pdftex.def Info: ejercicio2/LS-HCT.png used on input line 56.
+Package pdftex.def Info: ejercicio2/LS-HCT.png used on input line 50.
 (pdftex.def)             Requested size: 170.71652pt x 83.00322pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
-
-[5
-
-
- <./ejercicio2/HC-LS.png> <./ejercicio2/LS-HC.png> <./ejercicio2/HCT-LS.png> <.
-/ejercicio2/LS-HCT.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
+ [4 <./ejercicio1/maxI-PNP.png (PNG copy)> <./ejercicio2/HC-LS.png> <./ejercici
+o2/LS-HC.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
-<ejercicio2/OSC_LS_HC.png, id=56, 1027.84pt x 825.0825pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+<ejercicio2/OSC_LS_HC.png, id=51, 1027.84pt x 825.0825pt>
 File: ejercicio2/OSC_LS_HC.png Graphic file (type png)
 
 <use ejercicio2/OSC_LS_HC.png>
-Package pdftex.def Info: ejercicio2/OSC_LS_HC.png used on input line 80.
+Package pdftex.def Info: ejercicio2/OSC_LS_HC.png used on input line 72.
 (pdftex.def)             Requested size: 170.71652pt x 137.0392pt.
 
-<ejercicio2/OSC_HC_LS.png, id=57, 1027.84pt x 825.0825pt>
+<ejercicio2/OSC_HC_LS.png, id=52, 1027.84pt x 825.0825pt>
 File: ejercicio2/OSC_HC_LS.png Graphic file (type png)
 
 <use ejercicio2/OSC_HC_LS.png>
-Package pdftex.def Info: ejercicio2/OSC_HC_LS.png used on input line 88.
+Package pdftex.def Info: ejercicio2/OSC_HC_LS.png used on input line 78.
 (pdftex.def)             Requested size: 170.71652pt x 137.0392pt.
 
-<ejercicio2/OSC_AMBAS.png, id=58, 1027.84pt x 825.0825pt>
+<ejercicio2/OSC_AMBAS.png, id=53, 1027.84pt x 825.0825pt>
 File: ejercicio2/OSC_AMBAS.png Graphic file (type png)
 
 <use ejercicio2/OSC_AMBAS.png>
-Package pdftex.def Info: ejercicio2/OSC_AMBAS.png used on input line 99.
+Package pdftex.def Info: ejercicio2/OSC_AMBAS.png used on input line 87.
 (pdftex.def)             Requested size: 227.62204pt x 182.71474pt.
-) [6 <./ejercicio2/OSC_LS_HC.png (PNG copy)> <./ejercicio2/OSC_HC_LS.png (PNG c
-opy)> <./ejercicio2/OSC_AMBAS.png (PNG copy)>]
-[7]
-\openout2 = `ejercicio3/ejercicio3.aux'.
-
- (./ejercicio3/ejercicio3.tex (./ejercicio3/circuito.tex) [8
-
-
+) (./ejercicio3/ejercicio3.tex [5 <./ejercicio2/HCT-LS.png> <./ejercicio2/LS-HC
+T.png> <./ejercicio2/OSC_LS_HC.png (PNG copy)> <./ejercicio2/OSC_HC_LS.png (PNG
+ copy)>] (./ejercicio3/circuito.tex) [6 <./ejercicio2/OSC_AMBAS.png (PNG copy)>
 ]
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -1498,44 +1461,36 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
 )
-<ejercicio3/imagenes/riple.png, id=69, 1027.84pt x 825.0825pt>
+<ejercicio3/imagenes/riple.png, id=63, 1027.84pt x 825.0825pt>
 File: ejercicio3/imagenes/riple.png Graphic file (type png)
 
 <use ejercicio3/imagenes/riple.png>
 Package pdftex.def Info: ejercicio3/imagenes/riple.png used on input line 56.
 (pdftex.def)             Requested size: 308.35437pt x 247.52666pt.
- [9 <./ejercicio3/imagenes/riple.png (PNG copy)>] <ejercicio3/imagenes/tdown.pn
-g, id=75, 1027.84pt x 825.0825pt>
+ [7]
+<ejercicio3/imagenes/tdown.png, id=68, 1027.84pt x 825.0825pt>
 File: ejercicio3/imagenes/tdown.png Graphic file (type png)
 
 <use ejercicio3/imagenes/tdown.png>
 Package pdftex.def Info: ejercicio3/imagenes/tdown.png used on input line 65.
 (pdftex.def)             Requested size: 308.35437pt x 247.52666pt.
-) [10 <./ejercicio3/imagenes/tdown.png (PNG copy)>]
-\openout2 = `ejercicio4/ejercicio4.aux'.
-
- (./ejercicio4/ejercicio4.tex (./ejercicio4/circuito1.tex)
-<imagenes/sin_capacitor.png, id=79, 1027.84pt x 825.0825pt>
+) (./ejercicio4/ejercicio4.tex
+(./ejercicio4/circuito1.tex) [8 <./ejercicio3/imagenes/riple.png (PNG copy)> <.
+/ejercicio3/imagenes/tdown.png (PNG copy)>]
+<imagenes/sin_capacitor.png, id=72, 1027.84pt x 825.0825pt>
 File: imagenes/sin_capacitor.png Graphic file (type png)
 
 <use imagenes/sin_capacitor.png>
 Package pdftex.def Info: imagenes/sin_capacitor.png used on input line 44.
 (pdftex.def)             Requested size: 205.56436pt x 165.01357pt.
- [11
-
-
-]
-<imagenes/con_capacitor.png, id=83, 1027.84pt x 825.0825pt>
+ [9 <./imagenes/sin_capacitor.png (PNG copy)>]
+<imagenes/con_capacitor.png, id=76, 1027.84pt x 825.0825pt>
 File: imagenes/con_capacitor.png Graphic file (type png)
 
 <use imagenes/con_capacitor.png>
 Package pdftex.def Info: imagenes/con_capacitor.png used on input line 53.
 (pdftex.def)             Requested size: 205.56436pt x 165.01357pt.
-) [12 <./imagenes/sin_capacitor.png (PNG copy)> <./imagenes/con_capacitor.png (
-PNG copy)>]
-\openout2 = `ejercicio5/ejercicio5.aux'.
-
- (./ejercicio5/ejercicio5.tex
+) (./ejercicio5/ejercicio5.tex
 
 ./ejercicio5/ejercicio5.tex:1: Package inputenc Error: Unicode char ﻿ (U+FEFF
 )
@@ -1551,40 +1506,31 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<ejercicio5/E3_CirEj5.jpg, id=88, 371.88937pt x 228.25275pt>
+<ejercicio5/E3_CirEj5.jpg, id=77, 371.88937pt x 228.25275pt>
 File: ejercicio5/E3_CirEj5.jpg Graphic file (type jpg)
 
 <use ejercicio5/E3_CirEj5.jpg>
 Package pdftex.def Info: ejercicio5/E3_CirEj5.jpg used on input line 6.
 (pdftex.def)             Requested size: 227.62204pt x 139.71112pt.
 
-<ejercicio5/PullUp.jpg, id=89, 246.9225pt x 205.76875pt>
+<ejercicio5/PullUp.jpg, id=78, 246.9225pt x 205.76875pt>
 File: ejercicio5/PullUp.jpg Graphic file (type jpg)
 
 <use ejercicio5/PullUp.jpg>
 Package pdftex.def Info: ejercicio5/PullUp.jpg used on input line 15.
 (pdftex.def)             Requested size: 142.26378pt x 118.55157pt.
-) [13
-
-
- <./ejercicio5/E3_CirEj5.jpg> <./ejercicio5/PullUp.jpg>]
-\openout2 = `ejercicio6/ejercicio6.aux'.
-
- (./ejercicio6/ejercicio6.tex (./ejercicio6/circuito_sr.tex)
-<ejercicio6/sr_1.png, id=95, 1027.84pt x 825.0825pt>
+) (./ejercicio6/ejercicio6.tex [10 <./imagenes/con_capacitor.png (PNG copy)> <.
+/ejercicio5/E3_CirEj5.jpg>]
+(./ejercicio6/circuito_sr.tex)
+<ejercicio6/sr_1.png, id=83, 1027.84pt x 825.0825pt>
 File: ejercicio6/sr_1.png Graphic file (type png)
  <use ejercicio6/sr_1.png>
 Package pdftex.def Info: ejercicio6/sr_1.png used on input line 34.
 (pdftex.def)             Requested size: 256.95937pt x 206.27011pt.
 
-[14
-
-
- <./ejercicio6/sr_1.png (PNG copy)>] (./ejercicio6/circuito_d.tex)
-(./ejercicio6/circuito_ffd.tex) [15]) [16]
-\openout2 = `ejercicio7/ejercicio7.aux'.
-
- (./ejercicio7/ejercicio7.tex
+[11 <./ejercicio5/PullUp.jpg>] (./ejercicio6/circuito_d.tex)
+(./ejercicio6/circuito_ffd.tex) [12 <./ejercicio6/sr_1.png (PNG copy)>])
+(./ejercicio7/ejercicio7.tex
 
 ./ejercicio7/ejercicio7.tex:1: Package inputenc Error: Unicode char ﻿ (U+FEFF
 )
@@ -1600,23 +1546,23 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<ejercicio7/imagenes/asynccircuito.png, id=105, 347.49825pt x 173.448pt>
+<ejercicio7/imagenes/asynccircuito.png, id=93, 347.49825pt x 173.448pt>
 File: ejercicio7/imagenes/asynccircuito.png Graphic file (type png)
 
 <use ejercicio7/imagenes/asynccircuito.png>
 Package pdftex.def Info: ejercicio7/imagenes/asynccircuito.png used on input li
 ne 19.
-(pdftex.def)             Requested size: 86.87434pt x 43.3619pt.
+(pdftex.def)             Requested size: 173.74869pt x 86.72379pt.
 
-<ejercicio7/imagenes/asyncaltium.png, id=106, 445.665pt x 432.11438pt>
+<ejercicio7/imagenes/asyncaltium.png, id=94, 445.665pt x 432.11438pt>
 File: ejercicio7/imagenes/asyncaltium.png Graphic file (type png)
 
 <use ejercicio7/imagenes/asyncaltium.png>
 Package pdftex.def Info: ejercicio7/imagenes/asyncaltium.png used on input line
  26.
 (pdftex.def)             Requested size: 111.41597pt x 108.02832pt.
-
-<ejercicio7/imagenes/timepropagation.png, id=107, 770.88pt x 578.16pt>
+ [13]
+<ejercicio7/imagenes/timepropagation.png, id=98, 770.88pt x 578.16pt>
 File: ejercicio7/imagenes/timepropagation.png Graphic file (type png)
 
 <use ejercicio7/imagenes/timepropagation.png>
@@ -1628,14 +1574,14 @@ Overfull \hbox (7.77663pt too wide) in paragraph at lines 59--60
  [] 
  []
 
-<ejercicio7/imagenes/async.png, id=108, 770.88pt x 578.91281pt>
+<ejercicio7/imagenes/async.png, id=99, 770.88pt x 578.91281pt>
 File: ejercicio7/imagenes/async.png Graphic file (type png)
 
 <use ejercicio7/imagenes/async.png>
 Package pdftex.def Info: ejercicio7/imagenes/async.png used on input line 93.
 (pdftex.def)             Requested size: 154.17326pt x 115.7805pt.
 
-<ejercicio7/imagenes/async2.png, id=109, 770.88pt x 577.40718pt>
+<ejercicio7/imagenes/async2.png, id=100, 770.88pt x 577.40718pt>
 File: ejercicio7/imagenes/async2.png Graphic file (type png)
 
 <use ejercicio7/imagenes/async2.png>
@@ -1643,7 +1589,7 @@ Package pdftex.def Info: ejercicio7/imagenes/async2.png used on input line 100.
 
 (pdftex.def)             Requested size: 154.17326pt x 115.47939pt.
 
-<ejercicio7/imagenes/async3.png, id=110, 770.88pt x 577.40718pt>
+<ejercicio7/imagenes/async3.png, id=101, 770.88pt x 577.40718pt>
 File: ejercicio7/imagenes/async3.png Graphic file (type png)
 
 <use ejercicio7/imagenes/async3.png>
@@ -1651,34 +1597,41 @@ Package pdftex.def Info: ejercicio7/imagenes/async3.png used on input line 107.
 
 (pdftex.def)             Requested size: 154.17326pt x 115.47939pt.
 
-<ejercicio7/imagenes/async4.png, id=111, 770.88pt x 578.16pt>
+<ejercicio7/imagenes/async4.png, id=102, 770.88pt x 578.16pt>
 File: ejercicio7/imagenes/async4.png Graphic file (type png)
 
 <use ejercicio7/imagenes/async4.png>
 Package pdftex.def Info: ejercicio7/imagenes/async4.png used on input line 114.
 
 (pdftex.def)             Requested size: 154.17326pt x 115.62994pt.
- [17
+ [14 <./ejercicio7/imagenes/asynccircuito.png> <./ejercicio7/imagenes/asyncalti
+um.png> <./ejercicio7/imagenes/timepropagation.png>] <ejercicio7/imagenes/sync2
+5.png, id=109, 1013.7875pt x 770.88pt>
+File: ejercicio7/imagenes/sync25.png Graphic file (type png)
 
+<use ejercicio7/imagenes/sync25.png>
+Package pdftex.def Info: ejercicio7/imagenes/sync25.png used on input line 148.
 
- <./ejercicio7/imagenes/asynccircuito.png> <./ejercicio7/imagenes/asyncaltium.p
-ng> <./ejercicio7/imagenes/timepropagation.png>]) [18 <./ejercicio7/imagenes/as
-ync.png> <./ejercicio7/imagenes/async2.png> <./ejercicio7/imagenes/async3.png> 
-<./ejercicio7/imagenes/async4.png>]
-\openout2 = `ejercicio8/ejercicio8.aux'.
+(pdftex.def)             Requested size: 152.06157pt x 115.627pt.
 
+<ejercicio7/imagenes/sync24.png, id=110, 1027.84pt x 771.88374pt>
+File: ejercicio7/imagenes/sync24.png Graphic file (type png)
 
-(./ejercicio8/ejercicio8.tex (./ejercicio8/circuito1.tex)
-(./ejercicio8/escalon_trigger2.tex) [19
+<use ejercicio7/imagenes/sync24.png>
+Package pdftex.def Info: ejercicio7/imagenes/sync24.png used on input line 155.
 
-
-] (./ejercicio8/circuito2.tex)
-(./ejercicio8/and_trigger.tex) [20] (./ejercicio8/555_astable.tex) [21]
+(pdftex.def)             Requested size: 154.16934pt x 115.77756pt.
+) (./ejercicio8/ejercicio8.tex [15 <./ejercicio7/imagenes/async.png> <./ejercic
+io7/imagenes/async2.png> <./ejercicio7/imagenes/async3.png> <./ejercicio7/image
+nes/async4.png> <./ejercicio7/imagenes/sync25.png> <./ejercicio7/imagenes/sync2
+4.png>] (./ejercicio8/circuito1.tex)
+(./ejercicio8/escalon_trigger2.tex) [16] (./ejercicio8/circuito2.tex)
+(./ejercicio8/and_trigger.tex) [17] (./ejercicio8/555_astable.tex) [18]
 (./ejercicio8/and_contador.tex)
 
 pdfTeX warning: pdflatex (file ./ejercicio8/Esquematico.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<ejercicio8/Esquematico.pdf, id=139, 845.07724pt x 597.55246pt>
+<ejercicio8/Esquematico.pdf, id=134, 845.07724pt x 597.55246pt>
 File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
 
 <use ejercicio8/Esquematico.pdf>
@@ -1700,7 +1653,7 @@ und PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./ejercicio8/Esquematico.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<ejercicio8/Esquematico.pdf, id=142, page=1, 845.07724pt x 597.55246pt>
+<ejercicio8/Esquematico.pdf, id=137, page=1, 845.07724pt x 597.55246pt>
 File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
 
 <use ejercicio8/Esquematico.pdf, page 1>
@@ -1713,7 +1666,7 @@ File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
 Package pdftex.def Info: ejercicio8/Esquematico.pdf, page1 used on input line 1
 30.
 (pdftex.def)             Requested size: 845.11386pt x 597.57834pt.
- [22]
+ [19]
 File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
 
 <use ejercicio8/Esquematico.pdf, page 1>
@@ -1732,11 +1685,11 @@ File: ejercicio8/Esquematico.pdf Graphic file (type pdf)
 Package pdftex.def Info: ejercicio8/Esquematico.pdf, page1 used on input line 1
 30.
 (pdftex.def)             Requested size: 845.11386pt x 597.57834pt.
- [23 <./ejercicio8/Esquematico.pdf>]
+ [20 <./ejercicio8/Esquematico.pdf>]
 
 pdfTeX warning: pdflatex (file ./ejercicio8/Impreso.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<ejercicio8/Impreso.pdf, id=174, 845.07724pt x 597.55246pt>
+<ejercicio8/Impreso.pdf, id=169, 845.07724pt x 597.55246pt>
 File: ejercicio8/Impreso.pdf Graphic file (type pdf)
 
 <use ejercicio8/Impreso.pdf>
@@ -1758,7 +1711,7 @@ PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./ejercicio8/Impreso.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<ejercicio8/Impreso.pdf, id=177, page=1, 845.07724pt x 597.55246pt>
+<ejercicio8/Impreso.pdf, id=172, page=1, 845.07724pt x 597.55246pt>
 File: ejercicio8/Impreso.pdf Graphic file (type pdf)
 
 <use ejercicio8/Impreso.pdf, page 1>
@@ -1782,46 +1735,38 @@ File: ejercicio8/Impreso.pdf Graphic file (type pdf)
 <use ejercicio8/Impreso.pdf, page 1>
 Package pdftex.def Info: ejercicio8/Impreso.pdf, page1 used on input line 131.
 (pdftex.def)             Requested size: 845.11386pt x 597.57834pt.
- [24 <./ejercicio8/Impreso.pdf>])
+ [21 <./ejercicio8/Impreso.pdf>])
 (./main.aux (./caratula.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
- (./ejercicio1/ejercicio1.aux)
-(./ejercicio2/ejercicio2.aux) (./ejercicio3/ejercicio3.aux)
-(./ejercicio4/ejercicio4.aux) (./ejercicio5/ejercicio5.aux)
-(./ejercicio6/ejercicio6.aux) (./ejercicio7/ejercicio7.aux)
-(./ejercicio8/ejercicio8.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 37751 strings out of 492995
- 944973 string characters out of 6132704
- 1246462 words of memory out of 5000000
- 40616 multiletter control sequences out of 15000+600000
+ 37723 strings out of 492995
+ 944263 string characters out of 6132704
+ 1240178 words of memory out of 5000000
+ 40618 multiletter control sequences out of 15000+600000
  9660 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,102p,1474b,1887s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (25 pages, 2662597 bytes).
+ 62i,18n,100p,1472b,1887s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (22 pages, 2700968 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
+ 226 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
