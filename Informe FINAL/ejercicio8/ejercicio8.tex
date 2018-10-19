@@ -1,0 +1,132 @@
+\newpage
+\part*{Ejercicio 8}
+
+Se nos pidió diseñar e implementar un circuito capaz de medir una distancia utilizando el sensor ultrasonico HC-SR04. En las secciones posteriores se detallan los aspectos que hemos considerado mas relevantes en el proceso de diseño del dispositivo.
+
+\subsection*{Trigger HC-SR04}
+
+El primer paso en el diseño del circuito fue implementar un bloque circuital que proporcione el pulso de trigger al sensor HC-SR04, el cuál, como indica en las especificaciones, debe ser de $10 \mu seg$, sin embargo, habiéndose realizado pruebas utilizando una placa de experimentación Arduino UNO, se determinó que se puede disparar el sensor con pulsos de ordenes superiores de extensión. Esta observación tiene relevancia, ya que generar un pulso tan breve mediante un pulsador mecánico trae ciertas complejidades. Dicho esto, a continuación se explica el circuito utilizado para generar el pulso.
+\bigskip
+
+\begin{figure}[H]
+\begin{center}
+\input{ejercicio8/circuito1}
+\end{center}
+\caption{Circuito para generar pulso de $30 mseg$} \label{8_fig1}
+\end{figure}
+
+Los valores del capacitor de $0.01\mu F$ y la resistencia de $3k3$ se determinaron al resolver el transitorio del circuito, y considerando los valores $V_{T_{MAX}}^+$(Máximo valor en la entrada para el cuál tengo HIGH en la salida del inversor Scmhitt trigger 74HC14) y el valor de $Vcc$ para obtener un pulso de aproximadamente $30 \mu seg$. La respuesta teórica aproximada que se obtiene en la entrada y la salida del inversor que se muestra en la Figura \ref{8_fig1} se muestra en la Figura \ref{8_fig2}.
+
+\begin{figure}[H]
+\centering
+\input{ejercicio8/escalon_trigger2}
+\caption{Respuesta del transitorio y la compuerta inversora} 
+\label{8_fig2}
+\end{figure}
+
+Por supuesto no debe enviarse la 'instrucción' de triggerear el HC-SR04 si el circuito no habilita a hacerlo, es decir, si el circuito esta procesando una medición anterior. Para esto, se utiliza una compuerta AND con una entrada linkeada al registro que va a determinar si el circuito esta ocupado o listo para usarse y otra al pulso generado, explicado anteriormente. La lógica que determine si el circuito está o no ocupado se explicará mas adelante.
+
+
+\begin{figure}[H]
+\centering
+\input{ejercicio8/circuito2}
+\caption{Circuito para triggerear HC-SR04}
+\label{8_fig3}
+\end{figure}
+
+La variable CAN TRIGGER determina si se puede o no triggerear el sensor. Esta variable es función de dos variables, una es READY e indica si el circuito está listo para utilizarse y la otra es TRIGENABLE, y habilita o deshabilita el trigger manualmente. El diagrama lógico que las vincula se muestra en la Figura \ref{8_fig6}:
+
+\begin{figure}[H]
+\centering
+\input{ejercicio8/and_trigger}
+\caption{Logica a la entrada del contador} \label{8_fig5}
+\end{figure}
+
+
+\subsection*{Diseño del Clock}
+Uno de los parámetros mas importantes en el diseño del circuito es elegir una apropiada frecuencia de clock, ya que esta será la que controle al contador. Implelentar un buen diseño de clock se traducirá en una medición más exacta.
+
+La consigna determina que la salida debe expresar la extensión del pulso ECHO en unidades de $100 \mu seg$, por lo tanto, el contador debe contar un click, por cada $100 \mu seg$ de pulso. Por lo tanto se determiina que el período de la señal de clock debe ser $T=100 /mu seg$
+
+
+Para la implementación del clock se decidió utilizar un integrado 555 en modo astable. La configuración del mismo en el modo mencionado se muestra en la Figura \ref{8_fig4}. Las expresión, según la hoja de datos de los integrados 555, para determinar el comportamiento del dispositivo en función de los componentes $R_1$, $R_2$ y $C$ son:
+
+\[
+\begin{cases}
+	t_H=ln(2)(R_1 + R_2)C\\
+	t_L=ln(2)R_2C\\
+	T=t_L + t_H	
+\end{cases}
+\]
+
+Trabajando con estas expresiones, se calcularon los valores de los componentes de forma que se obtenga un clock con los parámetros anteriormente mencionados, y se determinaron:
+
+\[
+\begin{cases}
+	R_1=2.885 k\Omega\\
+	R_2=5.771 k\Omega\\
+	C=0.01\mu F	
+\end{cases}
+\]
+
+\begin{figure}[H]
+\begin{center}
+\input{ejercicio8/555_astable}
+\caption{xx555 configurado en modo astable} \label{8_fig4}
+\end{center}
+\end{figure}
+
+Debido a que los valores calculados de las resistencias no son valores comerciales, se eligieron los dos valores comerciales mas cercanos para simplificar la implementación. Elegir valores distintos a los analíticos modificará el período del clock. Los valores de los componentes elegidos para la implementación son:
+
+\[
+\begin{cases}
+	R_1=2.7 k\Omega\\
+	R_2=5.6 k\Omega\\
+	C=0.01\mu F	
+\end{cases}
+\]
+
+Estos valores nos dan un período $T=96.347 \mu seg$. Esta claro que se caerá en un error al utilizar un clock cuyo período no sea exactamente $100 \mu seg$. Este error se hace mayor en módulo a medida que la extensión del pulso medido crece, sin embargo, el error relativo se achica a medida que el pulso crece.
+
+\subsection*{Implementacion del contador}
+
+El integrado elegido para contar la extensión del puslo \emph{ECHO} del sensor HC-SR04 fue un \emph{74HC4040}, el cuál cuenta con 3 modos de funcionamiento, en función de los estados de sus dos entradas $CLK$, $RST$ y , los mismos se detallan en la siguiente tabla:
+
+\begin{center}
+\begin{tabular}{c|c|c}
+CP & MR & MODO \\ 
+\hline 
+\texttiming[timing/c/rising arrows, timing/c/arrow pos=.7]{2{C}} & LOW & Hold \\ 
+\texttiming[timing/c/falling arrows, timing/c/arrow pos=.7]{HC} & LOW & Count \\ 
+X & HIGH & Reset \\ 
+\end{tabular} 
+\end{center}
+
+Se pretende que en tanto el sensor devuelva un ECHO, el contador este activo, y mientras el sensor no devuelva ECHO, el contador no cuente. Dicho esto, la entrada CLK será función del Clk y del pulso ECHO, como se muestra en la Figura \ref{8_fig6}
+
+\begin{figure}[H]
+\centering
+\input{ejercicio8/and_contador}
+\caption{Logica a la entrada del contador} \label{8_fig6}
+\end{figure}
+
+La entrada RST es controlada por un pulsador físico, de forma que esta ponga todas las salidas del contador en LOW, y prepare el circuito para una eventual nueva medición.
+
+\subsection*{Reset Button - Trigger Enable Button}
+
+El usuario al pulsar el boton RESET, además de resetear el contador, toggleará un Flip-Flop JK configurado en modo Toggle que almacena en su salida el estado de la variable CONTANDO. Dado que $READY=\overline{\text{CONTANDO}}$, cuando CONTANDO=1, el circuito impedirá que el usuario dispare una solicitud al sensor, tal como ilustra la Figura \ref{8_fig3}.
+
+Al pulsar el botón TRIG EN (tal como figura en la placa), se toggleará un Flip-Flop que almacena en su salida una variable que, tal como indica la consigna,  habilita o deshabilita la solicitud de disparo al HC-SR04. A difetencia de la variable READY, esta es una variable que el usuario puede manipular para habilitar y deshabilitar manualmente.
+
+\subsection*{Output}
+
+La salida se muestra en 7 LED's que indican el estado del contador en codigo binario. Sobre la placa se indica la ponderación de cada LED, es decir a que bit del código binario corresponde. 
+
+\bigskip
+\bigskip
+
+El esquemático del diseño y el circuito impreso implementado se detallan en dos hojas separadas a continuación.
+
+
+\includepdf[landscape=true]{ejercicio8/Esquematico.pdf}
+\includepdf[landscape=true]{ejercicio8/Impreso.pdf}
